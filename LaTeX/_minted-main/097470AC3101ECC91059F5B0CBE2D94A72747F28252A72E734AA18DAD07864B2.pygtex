@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{prunableNet}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{taylorPruningLoop}\PYG{p}{(}\PYG{n}{prunableNet}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{mbqTrain}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{mbqValidation}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{classes}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{                                }\PYG{p}{,}\PYG{n}{numTest}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{maxPruningIterations}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{                                }\PYG{p}{,}\PYG{n}{maxToPrune}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{minPrunables}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{learnRate}\PYG{p}{,}\PYG{n}{momentum}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{                                }\PYG{p}{,}\PYG{n}{numMinibatchUpdates}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{validationFrequency}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{                                }\PYG{p}{,}\PYG{n}{trainAccuracy}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{maxPrunableFilters}\PYG{p}{);}
+\end{Verbatim}

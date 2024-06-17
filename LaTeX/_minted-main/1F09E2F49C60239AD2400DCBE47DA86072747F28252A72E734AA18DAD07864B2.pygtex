@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{commands}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{categorical}\PYG{p}{([}\PYG{l+s}{\PYGZdq{}yes\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}no\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}up\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}down\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}left\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}right\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}on\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}off\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}stop\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}go\PYGZdq{}}\PYG{p}{]);}
+\PYG{n}{background}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{categorical}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}background\PYGZdq{}}\PYG{p}{);}
+
+\PYG{n}{isCommand}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{ismember}\PYG{p}{(}\PYG{n}{ads}\PYG{p}{.}\PYG{n}{Labels}\PYG{p}{,}\PYG{n}{commands}\PYG{p}{);}
+\PYG{n}{isBackground}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{ismember}\PYG{p}{(}\PYG{n}{ads}\PYG{p}{.}\PYG{n}{Labels}\PYG{p}{,}\PYG{n}{background}\PYG{p}{);}
+\PYG{n}{isUnknown}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{o}{\PYGZti{}}\PYG{p}{(}\PYG{n}{isCommand}\PYG{o}{|}\PYG{n}{isBackground}\PYG{p}{);}
+
+\PYG{n}{includeFraction}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mf}{0.2}\PYG{p}{;}\PYG{+w}{ }\PYG{c}{\PYGZpc{} Fraction of unknowns to include.}
+\PYG{n}{idx}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{find}\PYG{p}{(}\PYG{n}{isUnknown}\PYG{p}{);}
+\PYG{n}{idx}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{idx}\PYG{p}{(}\PYG{n+nb}{randperm}\PYG{p}{(}\PYG{n+nb}{numel}\PYG{p}{(}\PYG{n}{idx}\PYG{p}{),}\PYG{n+nb}{round}\PYG{p}{((}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{includeFraction}\PYG{p}{)}\PYG{o}{*}\PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{isUnknown}\PYG{p}{))));}
+\PYG{n}{isUnknown}\PYG{p}{(}\PYG{n}{idx}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{false}\PYG{p}{;}
+
+\PYG{n}{ads}\PYG{p}{.}\PYG{n}{Labels}\PYG{p}{(}\PYG{n}{isUnknown}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{categorical}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}unknown\PYGZdq{}}\PYG{p}{);}
+
+\PYG{n}{adsTrain}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{subset}\PYG{p}{(}\PYG{n}{ads}\PYG{p}{,}\PYG{n}{isCommand}\PYG{o}{|}\PYG{n}{isUnknown}\PYG{o}{|}\PYG{n}{isBackground}\PYG{p}{);}
+\PYG{n}{adsTrain}\PYG{p}{.}\PYG{n}{Labels}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{removecats}\PYG{p}{(}\PYG{n}{adsTrain}\PYG{p}{.}\PYG{n}{Labels}\PYG{p}{);}
+\end{Verbatim}

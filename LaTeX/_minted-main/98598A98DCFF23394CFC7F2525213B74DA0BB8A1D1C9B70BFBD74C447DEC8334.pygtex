@@ -1,0 +1,42 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{tensorflow} \PYG{k}{as} \PYG{n+nn}{tf}
+
+\PYG{n}{model} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{saved\PYGZus{}model}\PYG{o}{.}\PYG{n}{load}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}saved\PYGZus{}model\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{class} \PYG{n+nc}{ExportModel}\PYG{p}{(}\PYG{n}{tf}\PYG{o}{.}\PYG{n}{Module}\PYG{p}{):}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{model}\PYG{p}{):}
+        \PYG{n+nb}{super}\PYG{p}{()}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{()}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{model} \PYG{o}{=} \PYG{n}{model}
+
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{call\PYGZus{}string\PYGZus{}input} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}}\PYG{o}{.}\PYG{n}{get\PYGZus{}concrete\PYGZus{}function}\PYG{p}{(}
+            \PYG{n+nb}{input}\PYG{o}{=}\PYG{n}{tf}\PYG{o}{.}\PYG{n}{TensorSpec}\PYG{p}{(}\PYG{n}{shape}\PYG{o}{=}\PYG{p}{(),} \PYG{n}{dtype}\PYG{o}{=}\PYG{n}{tf}\PYG{o}{.}\PYG{n}{string}\PYG{p}{))}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{call\PYGZus{}float\PYGZus{}input} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}}\PYG{o}{.}\PYG{n}{get\PYGZus{}concrete\PYGZus{}function}\PYG{p}{(}
+            \PYG{n+nb}{input}\PYG{o}{=}\PYG{n}{tf}\PYG{o}{.}\PYG{n}{TensorSpec}\PYG{p}{(}\PYG{n}{shape}\PYG{o}{=}\PYG{p}{[}\PYG{k+kc}{None}\PYG{p}{,} \PYG{l+m+mi}{16000}\PYG{p}{],} \PYG{n}{dtype}\PYG{o}{=}\PYG{n}{tf}\PYG{o}{.}\PYG{n}{float32}\PYG{p}{))}
+
+    \PYG{n+nd}{@tf}\PYG{o}{.}\PYG{n}{function}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n+nb}{input}\PYG{p}{):}
+        \PYG{n}{class\PYGZus{}labels} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}background\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}down\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}go\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}left\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}no\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}off\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}on\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}right\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}stop\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}up\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}yes\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}unknown\PYGZdq{}}\PYG{p}{]}
+        \PYG{k}{if} \PYG{n+nb}{input}\PYG{o}{.}\PYG{n}{dtype} \PYG{o}{==} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{string}\PYG{p}{:}
+            \PYG{n+nb}{input} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{io}\PYG{o}{.}\PYG{n}{read\PYGZus{}file}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{)}
+            \PYG{n+nb}{input}\PYG{p}{,} \PYG{n}{\PYGZus{}} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{audio}\PYG{o}{.}\PYG{n}{decode\PYGZus{}wav}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{,} \PYG{n}{desired\PYGZus{}channels}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{desired\PYGZus{}samples}\PYG{o}{=}\PYG{l+m+mi}{16000}\PYG{p}{,} \PYG{p}{)}
+            \PYG{n+nb}{input} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{squeeze}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{,} \PYG{n}{axis}\PYG{o}{=\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}
+
+        \PYG{n+nb}{input} \PYG{o}{=} \PYG{n}{preprocess\PYGZus{}audio}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{)}
+        \PYG{n}{infer} \PYG{o}{=} \PYG{n}{model}\PYG{o}{.}\PYG{n}{signatures}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}serving\PYGZus{}default\PYGZdq{}}\PYG{p}{]}
+        \PYG{n}{result} \PYG{o}{=} \PYG{n}{infer}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{)[}\PYG{l+s+s1}{\PYGZsq{}output\PYGZus{}0\PYGZsq{}}\PYG{p}{]}
+
+        \PYG{n}{class\PYGZus{}ids} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{argmax}\PYG{p}{(}\PYG{n}{result}\PYG{p}{,} \PYG{n}{axis}\PYG{o}{=\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}
+        \PYG{n}{class\PYGZus{}names} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{gather}\PYG{p}{(}\PYG{n}{class\PYGZus{}labels}\PYG{p}{,} \PYG{n}{class\PYGZus{}ids}\PYG{p}{)}
+
+        \PYG{k}{return} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}predictions\PYGZsq{}}\PYG{p}{:} \PYG{n}{result}\PYG{p}{,}
+                \PYG{l+s+s1}{\PYGZsq{}class\PYGZus{}ids\PYGZsq{}}\PYG{p}{:} \PYG{n}{class\PYGZus{}ids}\PYG{p}{,}
+                \PYG{l+s+s1}{\PYGZsq{}class\PYGZus{}names\PYGZsq{}}\PYG{p}{:} \PYG{n}{class\PYGZus{}names}\PYG{p}{\PYGZcb{}}
+
+
+\PYG{n}{export} \PYG{o}{=} \PYG{n}{ExportModel}\PYG{p}{(}\PYG{n}{model}\PYG{p}{)}
+
+\PYG{n}{tf}\PYG{o}{.}\PYG{n}{saved\PYGZus{}model}\PYG{o}{.}\PYG{n}{save}\PYG{p}{(}\PYG{n}{export}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}SavedModelGraph\PYGZdq{}}\PYG{p}{,} \PYG{n}{signatures}\PYG{o}{=}\PYG{p}{\PYGZob{}}
+    \PYG{l+s+s1}{\PYGZsq{}serving\PYGZus{}default\PYGZsq{}}\PYG{p}{:} \PYG{n}{export}\PYG{o}{.}\PYG{n}{call\PYGZus{}string\PYGZus{}input}\PYG{p}{,}
+    \PYG{l+s+s1}{\PYGZsq{}serving\PYGZus{}float\PYGZsq{}}\PYG{p}{:} \PYG{n}{export}\PYG{o}{.}\PYG{n}{call\PYGZus{}float\PYGZus{}input}\PYG{p}{\PYGZcb{})}
+\end{Verbatim}

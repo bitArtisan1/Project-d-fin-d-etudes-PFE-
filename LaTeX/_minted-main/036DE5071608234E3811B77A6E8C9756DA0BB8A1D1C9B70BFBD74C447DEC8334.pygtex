@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{tensorflow} \PYG{k}{as} \PYG{n+nn}{tf}
+
+\PYG{n}{interpreter} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{lite}\PYG{o}{.}\PYG{n}{Interpreter}\PYG{p}{(}\PYG{n}{model\PYGZus{}path}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}saved\PYGZus{}model\PYGZus{}optimized.tflite\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{signatures} \PYG{o}{=} \PYG{n}{interpreter}\PYG{o}{.}\PYG{n}{get\PYGZus{}signature\PYGZus{}list}\PYG{p}{()}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Signature:\PYGZsq{}}\PYG{p}{,} \PYG{n}{signatures}\PYG{p}{)}
+
+\PYG{n}{string} \PYG{o}{=} \PYG{n}{interpreter}\PYG{o}{.}\PYG{n}{get\PYGZus{}signature\PYGZus{}runner}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}serving\PYGZus{}default\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{waveform} \PYG{o}{=} \PYG{n}{interpreter}\PYG{o}{.}\PYG{n}{get\PYGZus{}signature\PYGZus{}runner}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}serving\PYGZus{}float\PYGZsq{}}\PYG{p}{)}
+
+\PYG{n}{x} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}0c40e715\PYGZus{}nohash\PYGZus{}1.wav\PYGZsq{}}
+\PYG{n}{x} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{io}\PYG{o}{.}\PYG{n}{read\PYGZus{}file}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\PYG{n}{x}\PYG{p}{,} \PYG{n}{\PYGZus{}} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{audio}\PYG{o}{.}\PYG{n}{decode\PYGZus{}wav}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{desired\PYGZus{}channels}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{desired\PYGZus{}samples}\PYG{o}{=}\PYG{l+m+mi}{16000}\PYG{p}{,)}
+\PYG{n}{x} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{squeeze}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{axis}\PYG{o}{=\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}
+
+\PYG{n}{output} \PYG{o}{=} \PYG{n}{waveform}\PYG{p}{(}\PYG{n+nb}{input}\PYG{o}{=}\PYG{n}{x}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Predictions:\PYGZsq{}}\PYG{p}{,} \PYG{n}{output}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,98 @@
+\selectlanguage *[]{english}
+\selectlanguage *[]{arabic}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[]{english}
+\selectlanguage *[]{arabic}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[]{english}
+\selectlanguage *[]{arabic}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[]{english}
+\contentsline {chapter}{Abstract}{i}{Doc-Start}%
+\contentsline {chapter}{Dedication}{ii}{Doc-Start}%
+\contentsline {chapter}{General Introduction}{1}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Theoretical Framework}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Artificial Neural Networks}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Multilayer Perceptron}{4}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Convolutional Neural Networks}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Architecture}{5}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Convolution Layer}{5}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.2}Pooling Operation}{6}{subsubsection.1.2.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1.3}Fully Connected Layer}{6}{subsubsection.1.2.1.3}%
+\contentsline {section}{\numberline {1.3}Recurrent Neural Networks}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Architecture}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Training}{7}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Types of RNNs}{7}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Long Short Term Memory}{8}{subsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.4.1}Mathematical Description of LSTM}{8}{subsubsection.1.3.4.1}%
+\contentsline {section}{\numberline {1.4}The Training Process}{10}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Training via Gradient Descent}{13}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Backpropagation Algorithm}{14}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}ESP32-Module Specifications \& Functions}{15}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}ESP32 Datasheet Specifications}{16}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Functionality of ESP32}{17}{subsection.1.5.2}%
+\contentsline {chapter}{\numberline {2}Conceptualization \& Functionality}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Preparing The Dataset}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Google Speech Commands Dataset}{18}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Predicting Words}{18}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Data Transformation \& Augmentation}{19}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Data Splitting}{19}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Data Augmentation}{19}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Data Transformation}{20}{subsubsection.2.2.3.3}%
+\contentsline {section}{\numberline {2.3}Defining The Network Architecture}{23}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Factors to Consider}{23}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Convolutional layer}{24}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Batch normalization layer}{24}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}ReLU layer}{25}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Max pooling layer}{25}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Flatten layer}{25}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}LSTM layer}{25}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Fully connected layer}{25}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Dropout layer}{25}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.10}Softmax layer}{26}{subsection.2.3.10}%
+\contentsline {section}{\numberline {2.4}Training The Model}{27}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hyper-parameter Fine-Tuning \& Refinement}{27}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}Learning Rate}{27}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}Optimizer (Adam)}{27}{subsubsection.2.4.1.2}%
+\contentsline {subsubsection}{\numberline {2.4.1.3}Epochs}{27}{subsubsection.2.4.1.3}%
+\contentsline {subsubsection}{\numberline {2.4.1.4}L2 Regularization}{28}{subsubsection.2.4.1.4}%
+\contentsline {subsection}{\numberline {2.4.2}Loss Function}{28}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Model Optimization}{30}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Taylor Pruning}{30}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Quantization}{30}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Model Exportation}{33}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}ONNX}{33}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}TensorFlow}{34}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Polymorphic Function \& Graphs}{34}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}Serving \& Signatures}{35}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}Serialization \& Deserialization}{35}{subsubsection.2.6.2.3}%
+\contentsline {subsubsection}{\numberline {2.6.2.4}Model Encapsulation with Preprocessing}{35}{subsubsection.2.6.2.4}%
+\contentsline {subsection}{\numberline {2.6.3}TensorFlow Lite (TFLite)}{36}{subsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.3.1}TFLite Inference}{37}{subsubsection.2.6.3.1}%
+\contentsline {chapter}{\numberline {3}Realisation}{38}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{38}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Dataset Preprocessing: Methods \& Analysis}{38}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Data Distribution}{38}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feature Extraction \& Transformation}{39}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Visualizing Data}{40}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Network Training \& Evaluation}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Network Layers}{41}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Training Function}{43}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Training Options}{43}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Adam Optimizer}{44}{subsubsection.3.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.4}Full Network Architecture Visualization}{45}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}The Training Process}{46}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Evaluation}{47}{subsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.6.1}Confusion Matrix}{48}{subsubsection.3.3.6.1}%
+\contentsline {section}{\numberline {3.4}Model Pruning \& Quantization}{50}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Pruning Process}{50}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Quantization Process}{52}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Compression Evaluation}{53}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Integration onto the ESP32 Module}{54}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Firmware}{54}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}\texttt {CommandDetector.cpp}}{54}{subsubsection.3.5.1.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}\texttt {CommandProcessor.cpp}}{56}{subsubsection.3.5.1.2}%
+\contentsline {subsubsection}{\numberline {3.5.1.3}\texttt {main.cpp}}{57}{subsubsection.3.5.1.3}%
+\contentsline {chapter}{General Conclusion}{61}{chapter*.15}%
+\contentsline {chapter}{Webliography}{vii}{chapter*.16}%

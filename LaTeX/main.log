@@ -1,0 +1,3330 @@
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.28)  28 MAY 2024 21:26
+ system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-05-08>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/Aamar/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/Aamar/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/Aamar/AppData
+/Local/Programs/MiKTeX/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Aamar/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrextend.s
+ty
+Package: scrextend 2023/07/07 v3.41 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrkbase.st
+y
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlfile.st
+y
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+))) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)))
+Package scrextend Info: File `scrsize12pt.clo' used to setup font sizes on inpu
+t line 3.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrsize12pt
+.clo
+File: scrsize12pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (12pt
+)
+) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count196
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/collectbox/collectbox.s
+ty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box51
+)
+\tc@llx=\dimen142
+\tc@lly=\dimen143
+\tc@urx=\dimen144
+\tc@ury=\dimen145
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/tc-pgf.def
+File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
+y
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-common.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen146
+\pgfutil@tempdimb=\dimen147
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-latex.def
+\pgfutil@abb=\box52
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen148
+\pgf@y=\dimen149
+\pgf@xa=\dimen150
+\pgf@ya=\dimen151
+\pgf@xb=\dimen152
+\pgf@yb=\dimen153
+\pgf@xc=\dimen154
+\pgf@yc=\dimen155
+\pgf@xd=\dimen156
+\pgf@yd=\dimen157
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count197
+\c@pgf@countb=\count198
+\c@pgf@countc=\count199
+\c@pgf@countd=\count266
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count267
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count268
+\pgfsyssoftpath@bigbuffer@items=\count269
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen158
+\pgfmath@count=\count270
+\pgfmath@box=\box53
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
+code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count271
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
+tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen159
+\pgf@picmaxx=\dimen160
+\pgf@picminy=\dimen161
+\pgf@picmaxy=\dimen162
+\pgf@pathminx=\dimen163
+\pgf@pathmaxx=\dimen164
+\pgf@pathminy=\dimen165
+\pgf@pathmaxy=\dimen166
+\pgf@xx=\dimen167
+\pgf@xy=\dimen168
+\pgf@yx=\dimen169
+\pgf@yy=\dimen170
+\pgf@zx=\dimen171
+\pgf@zy=\dimen172
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen173
+\pgf@path@lasty=\dimen174
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen175
+\pgf@shorten@start@additional=\dimen176
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count272
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen177
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen178
+\pgf@pt@y=\dimen179
+\pgf@pt@temp=\dimen180
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen181
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen182
+\pgf@sys@shading@range@num=\count273
+\pgf@shadingcount=\count274
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box57
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box58
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen183
+\pgf@nodesepend=\dimen184
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)))
+Package trimclip Info: No clipping driver 'tc-luatex.def' available.
+(trimclip)             Using fall-back PGF driver.
+)
+\adjbox@Width=\dimen185
+\adjbox@Height=\dimen186
+\adjbox@Depth=\dimen187
+\adjbox@Totalheight=\dimen188
+\adjbox@pwidth=\dimen189
+\adjbox@pheight=\dimen190
+\adjbox@pdepth=\dimen191
+\adjbox@ptotalheight=\dimen192
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count275
+) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count276
+\@vwid@loff=\dimen193
+\@vwid@roff=\dimen194
+)) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen195
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen196
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count277
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count278
+\leftroot@=\count279
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count280
+\DOTSCASE@=\count281
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen197
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count282
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip16
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
+\tag@help=\toks33
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
+\andhelp@=\toks34
+\eqnshift@=\dimen198
+\alignsep@=\dimen199
+\tagshift@=\dimen256
+\tagwidth@=\dimen257
+\totwidth@=\dimen258
+\lineht@=\dimen259
+\@envbody=\toks35
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks37
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count289
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count290
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen260
+\Hy@linkcounter=\count291
+\Hy@pagecounter=\count292
+ (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
+) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count293
+ (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count294
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen261
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count295
+\Field@Width=\dimen262
+\Fld@charsize=\dimen263
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-05-23 v7.01i Hyperref driver for luaTeX
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip53
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/hyperxmp/hyperxmp.sty
+Package: hyperxmp 2024/03/17 v5.13 Store hyperref metadata in XMP format
+\hyxmp@aep@toks=\toks38
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbase.
+sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/luatex/ctablestack/ctablestac
+k.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count301
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+\luacode@lines=\toks39
+\luacode@table@soft=\catcodetable16
+)
+\@hyxmp@count=\count302
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+\hyxmp@cct=\catcodetable17
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks40
+\verbatim@line=\toks41
+\verbatim@in@stream=\read3
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box62
+\tcb@upperbox=\box63
+\tcb@lowerbox=\box64
+\tcb@phantombox=\box65
+\c@tcbbreakpart=\count303
+\c@tcblayer=\count304
+\c@tcolorbox@number=\count305
+\l__tcobox_tmpa_box=\box66
+\l__tcobox_tmpa_dim=\dimen264
+\tcb@temp=\box67
+\tcb@temp=\box68
+\tcb@temp=\box69
+\tcb@temp=\box70
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbraster.cod
+e.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count306
+\c@tcbrasterrow=\count307
+\c@tcbrasternum=\count308
+\c@tcbraster=\count309
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbskins.code
+.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.
+sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.st
+y
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen265
+\pgffor@skip=\dimen266
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count310
+\pgfplotmarksize=\dimen267
+)
+\tikz@lastx=\dimen268
+\tikz@lasty=\dimen269
+\tikz@lastxsaved=\dimen270
+\tikz@lastysaved=\dimen271
+\tikz@lastmovetox=\dimen272
+\tikz@lastmovetoy=\dimen273
+\tikzleveldistance=\dimen274
+\tikzsiblingdistance=\dimen275
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count311
+\tikznumberofchildren=\count312
+\tikznumberofcurrentchild=\count313
+\tikz@fig@count=\count314
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count315
+\pgfmatrixcurrentcolumn=\count316
+\pgf@matrix@numberofcolumns=\count317
+)
+\tikz@expandcount=\count318
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tikzfill/tikzfill.image
+.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tikzfill/tikzfill-commo
+n.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tikzfill/tikzlibraryfil
+l.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box75
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbskinsjigsa
+w.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbbreakable.
+code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box76
+\tcb@totalupperbox=\box77
+\tcb@totallowerbox=\box78
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbhooks.code
+.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbtheorems.c
+ode.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbfitting.co
+de.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen276
+\tcb@lowerfitdim=\dimen277
+\tcb@upperfitdim=\dimen278
+\tcb@cur@hbadness=\count319
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcblistingsut
+f8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcblistings.c
+ode.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
+\lst@mode=\count320
+\lst@gtempboxa=\box79
+\lst@token=\toks44
+\lst@length=\count321
+\lst@currlwidth=\dimen279
+\lst@column=\count322
+\lst@pos=\count323
+\lst@lostspace=\dimen280
+\lst@width=\dimen281
+\lst@newlines=\count324
+\lst@lineno=\count325
+\lst@maxwidth=\dimen282
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count326
+\lst@skipnumbers=\count327
+\lst@framebox=\box80
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
+))
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcblistingsco
+re.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbprocessing
+.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count328
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
+Library `listings` is loaded instead. on input line 29.
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbexternal.c
+ode.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbmagazine.c
+ode.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbvignette.c
+ode.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbposter.cod
+e.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbminted.cod
+e.tex
+Library (tcolorbox): 'tcbminted.code.tex' version '6.2.0'
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/minted/minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2024/05/16 v1.7.0 fvextra - extensions and patches for fancyvr
+b
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count329
+\FV@InFile=\read4
+\FV@TabBox=\box81
+\c@FancyVerbLine=\count330
+\FV@StepNumber=\count331
+\FV@OutFile=\write4
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count332
+\output=\toks45
+\linenoprevgraf=\count333
+\linenumbersep=\dimen283
+\linenumberwidth=\dimen284
+\c@linenumber=\count334
+\c@pagewiselinenumber=\count335
+\c@LN@truepage=\count336
+\c@internallinenumber=\count337
+\c@internallinenumbers=\count338
+\quotelinenumbersep=\dimen285
+\bframerule=\dimen286
+\bframesep=\dimen287
+\bframebox=\box82
+\linenoamsmath@ams@eqpen=\count339
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count340
+\c@FancyVerbBufferIndex=\count341
+\c@FancyVerbBufferLength=\count342
+\c@FancyVerbBufferLine=\count343
+\c@FV@oldbufferlength=\count344
+\c@FV@TrueTabGroupLevel=\count345
+\c@FV@TrueTabCounter=\count346
+\FV@TabBox@Group=\box83
+\FV@TmpLength=\skip54
+\c@FV@HighlightLinesStart=\count347
+\c@FV@HighlightLinesStop=\count348
+\FV@LoopCount=\count349
+\FV@NCharsBox=\box84
+\FV@BreakIndent=\dimen288
+\FV@BreakIndentNChars=\count350
+\FV@BreakSymbolSepLeft=\dimen289
+\FV@BreakSymbolSepLeftNChars=\count351
+\FV@BreakSymbolSepRight=\dimen290
+\FV@BreakSymbolSepRightNChars=\count352
+\FV@BreakSymbolIndentLeft=\dimen291
+\FV@BreakSymbolIndentLeftNChars=\count353
+\FV@BreakSymbolIndentRight=\dimen292
+\FV@BreakSymbolIndentRightNChars=\count354
+\c@FancyVerbLineBreakLast=\count355
+\FV@LineBox=\box85
+\FV@LineIndentBox=\box86
+\c@FV@BreakBufferDepth=\count356
+\FV@LineWidth=\dimen293
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/ifplatform/ifplatform.s
+ty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/catchfile/catchfile.s
+ty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/xstring/xstring.tex
+\xs_counta=\count357
+\xs_countb=\count358
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip55
+\fb@frw=\dimen294
+\fb@frh=\dimen295
+\FrameRule=\dimen296
+\FrameSep=\dimen297
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count359
+\float@exts=\toks46
+\float@box=\box87
+\@float@everytoks=\toks47
+\@floatcapt=\box88
+)
+\minted@appexistsfile=\read5
+\minted@bgbox=\box89
+\minted@code=\write5
+\c@minted@FancyVerbLineTemp=\count360
+\c@minted@pygmentizecounter=\count361
+\@float@every@listing=\toks48
+\c@listing=\count362
+)
+runsystem(if not exist _minted-main mkdir _minted-main)...executed.
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/doclicense/doclicense.s
+ty
+Package: doclicense 2023/10/01 v3.3.0 Support for putting documents under a lic
+ense
+ (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count363
+\calc@Bcount=\count364
+\calc@Adimen=\dimen298
+\calc@Bdimen=\dimen299
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count365
+\calc@Cskip=\skip58
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\doclicense@hsize=\skip59
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/doclicense/doclicense-e
+nglish.ldf
+File: doclicense-english.ldf 
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
+e5.sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-08 L3 programming layer (loader) 
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count366
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box90
+))
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty
+Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+Package: xparse 2024-05-08 L3 Experimental document command parser
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesom
+e5-utex-helper.sty
+Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
+e5
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
+nput line 69.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
+omefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
+ input line 70.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontawes
+omebrands.fd)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/shadowtext/shadowtext.s
+ty
+Package: shadowtext 2012/05/07 v0.3 Shadow Text
+\st@shadowoffsetx=\skip60
+\st@shadowoffsety=\skip61
+\st@temp@width=\skip62
+\st@temp@height=\skip63
+\st@pic@width=\skip64
+\st@pic@height=\skip65
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/luacolor/luacolor.sty
+Package: luacolor 2023-08-18 v1.18 Color support via LuaTeX's attributes (HO)
+Inserting `luacolor.process' in `pre_shipout_filter'.
+\LuaCol@Attribute=\attribute4
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/lualatex/lua-ul/lua-ul.sty
+Package: lua-ul 2024-02-26 v0.2.1 Underlining and related functionality for Lua
+TeX
+Lua function luaul.restore_everyhbox = 30
+Lua function luaul.new_underline_type = 31
+Lua function luaul.set_underline_func = 32
+Lua function luaul.reset_underline_func = 33
+Module luatexbase Info: Uninstalling kernel luatexbase code on input line 36
+Inserting `add underlines to list' in `pre_append_to_vlist_filter'.
+Inserting `add underlines to list' in `hpack_filter'.
+Inserting `add underlines to list' in `vpack_filter'.
+Lua function sw@slant = 34
+\l__luaul_top_dim=\dimen300
+\l__luaul_bottom_dim=\dimen301
+\l__luaul_height_dim=\dimen302
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip66
+\enit@outerparindent=\dimen303
+\enit@toks=\toks49
+\enit@inbox=\box91
+\enit@count@id=\count367
+\enitdp@description=\count368
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+\c@svg@param@lastpage=\count369
+\svg@box=\box92
+\c@svg@param@currpage=\count370
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent
+.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent
+-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count371
+\multirow@dima=\skip68
+\bigstrutjot=\dimen304
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen305
+\lightrulewidth=\dimen306
+\cmidrulewidth=\dimen307
+\belowrulesep=\dimen308
+\belowbottomsep=\dimen309
+\aboverulesep=\dimen310
+\abovetopsep=\dimen311
+\cmidrulesep=\dimen312
+\cmidrulekern=\dimen313
+\defaultaddspace=\dimen314
+\@cmidla=\count372
+\@cmidlb=\count373
+\@aboverulesep=\dimen315
+\@belowrulesep=\dimen316
+\@thisruleclass=\count374
+\@lastruleclass=\count375
+\@thisrulewidth=\dimen317
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.cod
+e.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscore
+.code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable18
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen318
+\c@pgfplots@coordindex=\count376
+\c@pgfplots@scanlineindex=\count377
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplots
+sysgeneric.code.tex))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfplot
+slibrary.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
+ib/pgfplotsoldpgfsupp_loader.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
+ib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/luamath
+/pgflibraryluamath.code.tex)
+Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
+0 is up-to-date
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructure.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructureext.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count378
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsmatrix.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count379
+\t@pgfplotstable@a=\toks56
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsdeque.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.data.code.tex))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sutil.verb.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count380
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibra
+rypgfplots.surfshading.pgfsys-luatex.def)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+scolormap.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+scolor.code.tex))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsstac
+kedplots.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsplot
+handlers.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
+plothandler.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
+plotimage.code.tex)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.sca
+ling.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscoor
+dprocessing.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.err
+orbars.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.mar
+kers.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotstick
+s.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.pat
+hs.code.tex)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen319
+\pgfdecoratedremainingdistance=\dimen320
+\pgfdecoratedinputsegmentcompleteddistance=\dimen321
+\pgfdecoratedinputsegmentremainingdistance=\dimen322
+\pgf@decorate@distancetomove=\dimen323
+\pgf@decorate@repeatstate=\count381
+\pgfdecorationsegmentamplitude=\dimen324
+\pgfdecorationsegmentlength=\dimen325
+)
+\tikz@lib@dec@box=\box93
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlib
+rarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count382
+\pgfplots@xmin@reg=\dimen326
+\pgfplots@xmax@reg=\dimen327
+\pgfplots@ymin@reg=\dimen328
+\pgfplots@ymax@reg=\dimen329
+\pgfplots@zmin@reg=\dimen330
+\pgfplots@zmax@reg=\dimen331
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/listofitems/listofitems
+.sty
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/listofitems/listofite
+ms.tex
+\loi_cnt_foreach_nest=\count383
+\loi_nestcnt=\count384
+)
+Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
+sep char (CT)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen332
+\pgfarrowlength=\dimen333
+\pgfarrowwidth=\dimen334
+\pgfarrowlinewidth=\dimen335
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/contour/contour.sty
+Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
+\con@length=\skip69
+
+Loading configuration file `contour.cfg'.
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/contour/contour.cfg
+File: contour.cfg 2004/11/18 v2.14 Print contoured text (HH, MH)
+)
+contour: Using driver file `dvips.cnt'.
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/contour/dvips.cnt
+File: dvips.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+)
+\chaptertopskip=\skip70
+
+Success
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen336
+\captionmargin=\dimen337
+\caption@leftmargin=\dimen338
+\caption@rightmargin=\dimen339
+\caption@width=\dimen340
+\caption@indent=\dimen341
+\caption@parindent=\dimen342
+\caption@hangindent=\dimen343
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count385
+\c@continuedfloat=\count386
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: scrextend package is loaded.
+\caption@addmargin@hsize=\dimen344
+\caption@addmargin@linewidth=\dimen345
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 2.9e Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
+x.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count387
+\l__fontspec_language_int=\count388
+\l__fontspec_strnum_int=\count389
+\l__fontspec_tmp_int=\count390
+\l__fontspec_tmpa_int=\count391
+\l__fontspec_tmpb_int=\count392
+\l__fontspec_tmpc_int=\count393
+\l__fontspec_em_int=\count394
+\l__fontspec_emdef_int=\count395
+\l__fontspec_strong_int=\count396
+\l__fontspec_strongdef_int=\count397
+\l__fontspec_tmpa_dim=\dimen346
+\l__fontspec_tmpb_dim=\dimen347
+\l__fontspec_tmpc_dim=\dimen348
+ (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+)))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count398
+\c@@ppsavesec=\count399
+\c@@ppsaveapp=\count400
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count401
+\Gm@cntv=\count402
+\c@Gm@tempcnt=\count403
+\Gm@bindingoffset=\dimen349
+\Gm@wd@mp=\dimen350
+\Gm@odd@mp=\dimen351
+\Gm@even@mp=\dimen352
+\Gm@layoutwidth=\dimen353
+\Gm@layoutheight=\dimen354
+\Gm@layouthoffset=\dimen355
+\Gm@layoutvoffset=\dimen356
+\Gm@dimlist=\toks57
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg))
+\figureheight=\skip71
+\figurewidth=\skip72
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip73
+\cftbeforetoctitleskip=\skip74
+\cftaftertoctitleskip=\skip75
+\cftbeforepartskip=\skip76
+\cftpartnumwidth=\skip77
+\cftpartindent=\skip78
+\cftbeforechapskip=\skip79
+\cftchapindent=\skip80
+\cftchapnumwidth=\skip81
+\cftbeforesecskip=\skip82
+\cftsecindent=\skip83
+\cftsecnumwidth=\skip84
+\cftbeforesubsecskip=\skip85
+\cftsubsecindent=\skip86
+\cftsubsecnumwidth=\skip87
+\cftbeforesubsubsecskip=\skip88
+\cftsubsubsecindent=\skip89
+\cftsubsubsecnumwidth=\skip90
+\cftbeforeparaskip=\skip91
+\cftparaindent=\skip92
+\cftparanumwidth=\skip93
+\cftbeforesubparaskip=\skip94
+\cftsubparaindent=\skip95
+\cftsubparanumwidth=\skip96
+\cftbeforeloftitleskip=\skip97
+\cftafterloftitleskip=\skip98
+\cftbeforefigskip=\skip99
+\cftfigindent=\skip100
+\cftfignumwidth=\skip101
+\c@lofdepth=\count404
+\c@lotdepth=\count405
+\cftbeforelottitleskip=\skip102
+\cftafterlottitleskip=\skip103
+\cftbeforetabskip=\skip104
+\cfttabindent=\skip105
+\cfttabnumwidth=\skip106
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/algorithms/algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks58
+\c@algorithm=\count406
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/algorithmicx/algpseudoc
+ode.sty
+Package: algpseudocode 
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/algorithmicx/algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count407
+\c@ALG@rem=\count408
+\c@ALG@nested=\count409
+\ALG@tlm=\skip107
+\ALG@thistlm=\skip108
+\c@ALG@Lnr=\count410
+\c@ALG@blocknr=\count411
+\c@ALG@storecount=\count412
+\c@ALG@tmpcounter=\count413
+\ALG@tmplength=\skip109
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/polyglossia
+.sty
+Package: polyglossia 2024/03/07 v2.1 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-latex
+.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+)
+Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-engli
+sh.ldf
+File: gloss-english.ldf polyglossia: module for English
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Default language is english.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-arabi
+c.ldf
+File: gloss-arabic.ldf polyglossia: module for Arabic
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/lualatex/luabidi/luabidi.sty
+Package: luabidi 2023/10/01 v0.6 Bidirectional typesetting in LuaTeX
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/lualatex/luabidi/luabidi-foot
+notes.def
+\footnoterulewidth=\skip110
+))
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/arabicnumbe
+rs.sty
+Package: arabicnumbers 2010/03/18 v0.2 Formatting of Arabic and Farsi digits an
+d of Arabic abjad numerals
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/hijrical.st
+y
+Package: hijrical 2010/07/12 v0.2 Islamic calendar
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/cal-util.de
+f
+\c@tmpA=\count414
+\c@tmpB=\count415
+\c@tmpC=\count416
+\c@tmpD=\count417
+\c@tmpE=\count418
+\c@tmpF=\count419
+)
+\c@Hijriday=\count420
+\c@Hijrimonth=\count421
+\c@Hijriyear=\count422
+)
+Package polyglossia Info: Option: arabic, locale=default.
+Package polyglossia Info: Option: Arabic, calendar=gregorian.
+Package polyglossia Info: Option: Arabic, numerals=mashriq.
+)
+luaotfload | cache : Lookup cache loaded from C:/Users/Aamar/AppData/Local/MiKTe
+X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: 
+(fontspec)             Scheherazade scale = 1.1.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Scheherazade/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Scheherazade/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Scheherazade/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Scheherazade scale = 1.1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Scheherazade(0)' created for font
+(fontspec)             'Scheherazade' with options
+(fontspec)             [Renderer=Harfbuzz,Script=Arabic,Scale=1.1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.1]"name:Scheherazade:mode=harf;script=arab;langu
+age=dflt;"
+
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip111
+\f@nch@O@elh=\skip112
+\f@nch@O@erh=\skip113
+\f@nch@O@olh=\skip114
+\f@nch@O@orh=\skip115
+\f@nch@O@elf=\skip116
+\f@nch@O@erf=\skip117
+\f@nch@O@olf=\skip118
+\f@nch@O@orf=\skip119
+)
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 147.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 149.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks59
+\AP@partial=\box94
+\AP@footins=\box95
+)
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > mai
+n.aex <nul: /p x=^%~$PATH:i>> main.aex)...failed. 
+runsystem(del main.aex)...executed.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count423
+\csq@gtype=\count424
+\csq@glevel=\count425
+\csq@qlevel=\count426
+\csq@maxlvl=\count427
+\csq@tshold=\count428
+\csq@ltx@everypar=\toks60
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (./main.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `Training Data Distribution' multiply defined.
+
+
+LaTeX Warning: Label `fig:training' multiply defined.
+
+
+LaTeX Warning: Label `fig:training' multiply defined.
+
+)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+77.
+ (C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count429
+\scratchdimen=\dimen357
+\scratchbox=\box96
+\nofMPsegments=\count430
+\nofMParguments=\count431
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count432
+\MPscratchDim=\dimen358
+\MPnumerator=\count433
+\makeMPintoPDFobject=\count434
+\everyMPtoPDFconversion=\toks62
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 177.
+ (./main.out) (./main.out)
+\@outlinefile=\write6
+
+\openout6 = main.out
+\c@lstlisting=\count435
+
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 177.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 177.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 177.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 177.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 177.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 177.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 177.
+LaTeX Font Info:    Redeclaring math accent \check on input line 177.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 177.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 177.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 177.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 177.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 177.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 177.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 177.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 177.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 177.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 177.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 177.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 177.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 177.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 177.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 177.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 177.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 177.
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(43.36243pt, 758.32199pt, 43.36243pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=758.32199pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-65.90756pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \rmfamily on input line 177.
+LaTeX Info: Redefining \sffamily on input line 177.
+LaTeX Info: Redefining \ttfamily on input line 177.
+LaTeX Font Info:    Font shape `TU/Scheherazade(0)/m/n' will be
+(Font)              scaled to size 13.20007pt on input line 184.
+LaTeX Font Info:    Font shape `TU/Scheherazade(0)/m/n' will be
+(Font)              scaled to size 15.84007pt on input line 184.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 185.
+LaTeX Info: Redefining \sffamily on input line 185.
+LaTeX Info: Redefining \ttfamily on input line 185.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 189.
+LaTeX Info: Redefining \sffamily on input line 189.
+LaTeX Info: Redefining \ttfamily on input line 189.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 194.
+LaTeX Info: Redefining \sffamily on input line 194.
+LaTeX Info: Redefining \ttfamily on input line 194.
+<umbb2.png, id=393, 231.11343pt x 187.45032pt>
+File: umbb2.png Graphic file (type png)
+<use umbb2.png>
+Package luatex.def Info: umbb2.png  used on input line 197.
+(luatex.def)             Requested size: 142.26378pt x 115.38565pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 199
+.
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 199
+.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (4.0pt too wide) in paragraph at lines 210--210
+ [][] 
+ []
+
+
+LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
+(Font)              using `TU/lmr/bx/n' instead on input line 239.
+
+[1
+
+{C:/Users/Aamar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./umbb2.png>]
+ [1] [0
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 251--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--256
+
+ []
+
+[2
+
+] (./main.toc
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 7.
+LaTeX Info: Redefining \sffamily on input line 7.
+LaTeX Info: Redefining \ttfamily on input line 7.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 9.
+LaTeX Info: Redefining \sffamily on input line 9.
+LaTeX Info: Redefining \ttfamily on input line 9.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
+ [3
+
+
+
+])
+\tf@toc=\write7
+
+\openout7 = main.toc
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4] (./main.lof
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 14.
+LaTeX Info: Redefining \sffamily on input line 14.
+LaTeX Info: Redefining \ttfamily on input line 14.
+
+Overfull \hbox (2.99232pt too wide) in paragraph at lines 15--15
+ [][] [][]\TU/lmr/m/n/12 Graph Show-ing How Train-ing Er-ror Evolves With Model Com-plex-ity(Over- 
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 17.
+LaTeX Info: Redefining \sffamily on input line 17.
+LaTeX Info: Redefining \ttfamily on input line 17.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
+LaTeX Info: Redefining \rmfamily on input line 22.
+LaTeX Info: Redefining \sffamily on input line 22.
+LaTeX Info: Redefining \ttfamily on input line 22.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+LaTeX Info: Redefining \rmfamily on input line 30.
+LaTeX Info: Redefining \sffamily on input line 30.
+LaTeX Info: Redefining \ttfamily on input line 30.
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 31.
+
+<matlab.png, id=531, 1148.29pt x 1027.84pt>
+File: matlab.png Graphic file (type png)
+<use matlab.png>
+Package luatex.def Info: matlab.png  used on input line 31.
+(luatex.def)             Requested size: 17.32874pt x 15.51599pt.
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
+LaTeX Info: Redefining \rmfamily on input line 34.
+LaTeX Info: Redefining \sffamily on input line 34.
+LaTeX Info: Redefining \ttfamily on input line 34.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 36.
+LaTeX Info: Redefining \ttfamily on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 37.
+LaTeX Info: Redefining \sffamily on input line 37.
+LaTeX Info: Redefining \ttfamily on input line 37.
+LaTeX Info: Redefining \rmfamily on input line 39.
+LaTeX Info: Redefining \sffamily on input line 39.
+LaTeX Info: Redefining \ttfamily on input line 39.
+LaTeX Info: Redefining \rmfamily on input line 41.
+LaTeX Info: Redefining \sffamily on input line 41.
+LaTeX Info: Redefining \ttfamily on input line 41.
+LaTeX Info: Redefining \rmfamily on input line 43.
+LaTeX Info: Redefining \sffamily on input line 43.
+LaTeX Info: Redefining \ttfamily on input line 43.
+LaTeX Info: Redefining \rmfamily on input line 45.
+LaTeX Info: Redefining \sffamily on input line 45.
+LaTeX Info: Redefining \ttfamily on input line 45.
+LaTeX Info: Redefining \rmfamily on input line 47.
+LaTeX Info: Redefining \sffamily on input line 47.
+LaTeX Info: Redefining \ttfamily on input line 47.
+LaTeX Info: Redefining \rmfamily on input line 49.
+LaTeX Info: Redefining \sffamily on input line 49.
+LaTeX Info: Redefining \ttfamily on input line 49.
+)
+\tf@lof=\write8
+
+\openout8 = main.lof
+ [5<./matlab.png>] (./main.loa)
+\tf@loa=\write9
+
+\openout9 = main.loa
+ [6]
+Overfull \hbox (0.25717pt too wide) in paragraph at lines 279--281
+[]\TU/lmr/m/n/12 The fol-low-ing sec-tions of this re-port will delve into the 
+the-o-ret-i-cal foun-da-tions, method-
+ []
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+]
+Chapter 1.
+<image.png, id=587, 431.6125pt x 426.59375pt>
+File: image.png Graphic file (type png)
+<use image.png>
+Package luatex.def Info: image.png  used on input line 286.
+(luatex.def)             Requested size: 181.18439pt x 179.07701pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 287.
+See the caption package documentation for explanation.
+
+[2
+
+<./image.png>] 
+Neural network without arrows 
+ Layer 1, 2, 3, 4, 5,
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3] 
+Neural network activation
+contour: Using real outline for `$w_{1,1}$' on input line 414.
+contour: Using real outline for `$w_{1,2}$' on input line 414.
+contour: Using real outline for `$w_{1,3}$' on input line 414.
+contour: Using real outline for `$w_{1,4}$' on input line 414.
+contour: Using real outline for `$w_{1,n}$' on input line 414.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!] 
+Deep convolution neural network 
+ Layer 1, 2, 3, 4, 5, 6, 7, 8,
+Overfull \hbox (0.75995pt too wide) in paragraph at lines 554--556
+\TU/lmr/m/n/12 where $\OML/cmm/m/it/12 k$ \TU/lmr/m/n/12 is the fil-ter size and
+ $\OML/cmm/m/it/12 i$ \TU/lmr/m/n/12 ranges over valid con-vo-lu-tion po-si-tion
+s. In multi-dimensional
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box97
+\pgf@layerboxsaved@background=\box98
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+warning  (file lstm.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.7'
+, but at most version '1.5' allowed
+<lstm.pdf, id=633, 637.42139pt x 292.2117pt>
+File: lstm.pdf Graphic file (type pdf)
+<use lstm.pdf>
+Package luatex.def Info: lstm.pdf  used on input line 757.
+(luatex.def)             Requested size: 407.66833pt x 186.89pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 758.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.07909pt too wide) in paragraph at lines 763--765
+[]\TU/lmr/m/n/12 where the ini-tial val-ues are $[]$ and $[]$ and the op-er-a-to
+r $[]$ de-notes the Hadamard
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9<./lstm.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 969.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+<esp32.png, id=691, 786.43813pt x 871.255pt>
+File: esp32.png Graphic file (type png)
+<use esp32.png>
+Package luatex.def Info: esp32.png  used on input line 1015.
+(luatex.def)             Requested size: 341.43782pt x 341.42328pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1016.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15<./esp32.png>]
+Overfull \hbox (61.22038pt too wide) in paragraph at lines 1028--1061
+[]  [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+<esp1.png, id=702, 1744.5175pt x 1031.855pt>
+File: esp1.png Graphic file (type png)
+<use esp1.png>
+Package luatex.def Info: esp1.png  used on input line 1085.
+(luatex.def)             Requested size: 407.66833pt x 241.11615pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17<./esp1.png>]
+Chapter 2.
+
+Package fontspec Info: 
+(fontspec)             Font family 'CourierNew(0)' created for font 'Courier
+(fontspec)             New' with options [Renderer=Harfbuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Courier
+(fontspec)             New:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Courier
+(fontspec)             New/B:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Courier
+(fontspec)             New/I:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Courier
+(fontspec)             New/BI:mode=harf;script=latn;language=dflt;"
+
+
+Overfull \hbox (13.74777pt too wide) in paragraph at lines 1107--1107
+ [][] 
+ []
+
+[18
+
+]
+Package pgfplots info on input line 1132: Using 'lua backend=false' for axis: x
+ coord trafo unsupported.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 1180--1181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1194--1196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+Package svg Info: Last page of `./svg-inkscape/fft_svg-tex.pdf' is 1 on input l
+ine 1252.
+ (./svg-inkscape/fft_svg-tex.pdf_tex
+<./svg-inkscape/fft_svg-tex.pdf, id=735, page=1, 242.24487pt x 239.40225pt>
+File: ./svg-inkscape/fft_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/fft_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/fft_svg-tex.pdf , page1 used on input l
+ine 56.
+(luatex.def)             Requested size: 242.24486pt x 239.40895pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1253.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Trying to load font information for TU+qcr on input line 12
+66.
+LaTeX Font Info:    No file TUqcr.fd. on input line 1266.
+
+LaTeX Font Warning: Font shape `TU/qcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 1266.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22<./svg-inkscape/fft_svg-tex.pdf>]
+warning  (file transform2.pdf) (pdf inclusion): PDF inclusion: found PDF version
+ '1.7', but at most version '1.5' allowed
+<transform2.pdf, id=743, 674.52pt x 221.8689pt>
+File: transform2.pdf Graphic file (type pdf)
+<use transform2.pdf>
+Package luatex.def Info: transform2.pdf  used on input line 1272.
+(luatex.def)             Requested size: 452.9679pt x 148.99669pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1273.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23<./transform2.pdf>]
+<architecture1.png, id=817, 3655.6575pt x 1447.4075pt>
+File: architecture1.png Graphic file (type png)
+<use architecture1.png>
+Package luatex.def Info: architecture1.png  used on input line 1298.
+(luatex.def)             Requested size: 498.26744pt x 197.26886pt.
+
+Overfull \hbox (33.68118pt too wide) in paragraph at lines 1297--1299
+[]|  [][][] 
+ []
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 1299.
+
+
+File: matlab.png Graphic file (type png)
+<use matlab.png>
+Package luatex.def Info: matlab.png  used on input line 1299.
+(luatex.def)             Requested size: 17.32874pt x 15.51599pt.
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 1299.
+
+
+File: matlab.png Graphic file (type png)
+<use matlab.png>
+Package luatex.def Info: matlab.png  used on input line 1299.
+(luatex.def)             Requested size: 17.32874pt x 15.51599pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24<./architecture1.png>]
+Overfull \hbox (12.29555pt too wide) in paragraph at lines 1341--1342
+\TU/qcr/m/n/12 state $\OML/cmm/m/it/12 c[]$\TU/qcr/m/n/12 . Math-e-mat-i-cally, the LSTM equa-tions are given by $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 h[]; c[]\OT1/cmr/m/n/12 ) = [](\OML/cmm/m/it/12 x[]; h[]; c[]\OT1/cmr/m/n/12 )$\TU/qcr/m/n/12 .
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 1399.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 1399.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+Underfull \hbox (badness 3792) in paragraph at lines 1572--1573
+[] \TU/qcr/m/n/12 scale_fac-tor $\OMS/cmsy/m/n/12  $ \TU/qcr/m/n/12 max-i-mum_ra
+nge_of_8-bit_integers / max-i-mum_ab-so-
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 1574--1575
+[] \TU/qcr/m/n/12 scale_fac-tor $\OMS/cmsy/m/n/12  $ \TU/qcr/m/n/12 max-i-mum_ra
+nge_of_16-bit_integers / max-i-mum_ab-so-
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 1576--1577
+[] \TU/qcr/m/n/12 scale_fac-tor $\OMS/cmsy/m/n/12  $ \TU/qcr/m/n/12 max-i-mum_ra
+nge_of_32-bit_integers / max-i-mum_ab-so-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1590--1591
+[] \TU/qcr/m/n/12 scale_fac-tor $\OMS/cmsy/m/n/12  $ \TU/qcr/m/n/12 max-i-mum_ab
+-so-lute_value_of(value) / max-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+[] \TU/qcr/m/n/12 scale_fac-tor $\OMS/cmsy/m/n/12  $ \TU/qcr/m/n/12 max-i-mum_ab
+-so-lute_value_of(value) / max-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1594--1595
+[] \TU/qcr/m/n/12 scale_fac-tor $\OMS/cmsy/m/n/12  $ \TU/qcr/m/n/12 max-i-mum_ab
+-so-lute_value_of(value) / max-i-
+ []
+
+
+LaTeX Warning: Float too large for page by 1.15793pt on input line 1603.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+\openout4 = main.pyg
+ (./_minted-main/tango.pygstyle)
+(./_minted-main/98598A98DCFF23394CFC7F2525213B74DA0BB8A1D1C9B70BFBD74C447DEC833
+4.pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1713
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+\openout4 = main.pyg
+
+(./_minted-main/345036EF18C34F471893ED24D8D14D11DA0BB8A1D1C9B70BFBD74C447DEC833
+4.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/036DE5071608234E3811B77A6E8C9756DA0BB8A1D1C9B70BFBD74C447DEC833
+4.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+Chapter 3.
+
+\openout4 = main.pyg
+
+(./_minted-main/1F09E2F49C60239AD2400DCBE47DA86072747F28252A72E734AA18DAD07864B
+2.pygtex
+Overfull \hbox (12.63953pt too wide) in paragraph at lines 2--2
+\TU/lmtt/m/n/10 categorical\TU/lmtt/bx/n/10 ([\TU/lmtt/m/n/10 "yes"\TU/lmtt/bx/
+n/10 ,\TU/lmtt/m/n/10 "no"\TU/lmtt/bx/n/10 ,\TU/lmtt/m/n/10 "up"\TU/lmtt/bx/n/1
+0 ,\TU/lmtt/m/n/10 "down"\TU/lmtt/bx/n/10 ,\TU/lmtt/m/n/10 "left"\TU/lmtt/bx/n/
+10 ,\TU/lmtt/m/n/10 "right"\TU/lmtt/bx/n/10 ,\TU/lmtt/m/n/10 "on"\TU/lmtt/bx/n/
+10 ,\TU/lmtt/m/n/10 "off"\TU/lmtt/bx/n/10 ,\TU/lmtt/m/n/10 "stop"\TU/lmtt/bx/n/
+10 ,\TU/lmtt/m/n/10 "go"\TU/lmtt/bx/n/10 ]);|  
+ []
+
+)
+Package pgfplots info on input line 1818: Using 'lua backend=false' for axis: x
+ coord trafo unsupported.
+ [38
+
+]
+\openout4 = main.pyg
+
+(./_minted-main/58C9232271F02510836EB40959DFC76D72747F28252A72E734AA18DAD07864B
+2.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
+\openout4 = main.pyg
+
+(./_minted-main/B9C2B8B2B35FAF49B0CA981C842402C372747F28252A72E734AA18DAD07864B
+2.pygtex
+Overfull \hbox (2.13953pt too wide) in paragraph at lines 2--2
+\TU/lmtt/m/n/10 transform\TU/lmtt/bx/n/10 (\TU/lmtt/m/n/10 adsValidation\TU/lmt
+t/bx/n/10 ,@(\TU/lmtt/m/n/10 x\TU/lmtt/bx/n/10 )[\TU/lmtt/m/n/10 zeros\TU/lmtt/
+bx/n/10 (\TU/lmtt/m/n/10 floor\TU/lmtt/bx/n/10 ((\TU/lmtt/m/n/10 segmentSamples[]size\TU/lmtt/bx/n/10 (\TU/lmtt/m/n/10 x\TU/lmtt/bx/n/10 ,1))/2),1); 
+ []
+
+)
+Package svg Info: Last page of `./svg-inkscape/waveform_plot2_svg-tex.pdf' is 1
+ on input line 1886.
+ (./svg-inkscape/waveform_plot2_svg-tex.pdf_tex
+<./svg-inkscape/waveform_plot2_svg-tex.pdf, id=939, page=1, 1445.4pt x 578.16pt
+>
+File: ./svg-inkscape/waveform_plot2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/waveform_plot2_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/waveform_plot2_svg-tex.pdf , page1 used
+ on input line 56.
+(luatex.def)             Requested size: 500.0pt x 199.99474pt.
+)
+Overfull \hbox (21.96098pt too wide) in paragraph at lines 1885--1887
+[]  [] 
+ []
+
+Package svg Info: Last page of `./svg-inkscape/waveform_plot1_svg-tex.pdf' is 1
+ on input line 1889.
+(./svg-inkscape/waveform_plot1_svg-tex.pdf_tex
+<./svg-inkscape/waveform_plot1_svg-tex.pdf, id=941, page=1, 1445.4pt x 578.16pt
+>
+File: ./svg-inkscape/waveform_plot1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/waveform_plot1_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/waveform_plot1_svg-tex.pdf , page1 used
+ on input line 56.
+(luatex.def)             Requested size: 500.0pt x 199.99474pt.
+)
+Overfull \hbox (21.96098pt too wide) in paragraph at lines 1888--1891
+[]  []
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40<./svg-inkscape/waveform_plot2_svg-tex.pdf><./svg-inkscape/waveform_plot1_svg
+-tex.pdf>]
+\openout4 = main.pyg
+
+(./_minted-main/B3D175043B5CBD02061E7F4C81D326EA72747F28252A72E734AA18DAD07864B
+2.pygtex)
+<python.png, id=1026, 385.44pt x 385.44pt>
+File: python.png Graphic file (type png)
+<use python.png>
+Package luatex.def Info: python.png  used on input line 1929.
+(luatex.def)             Requested size: 10.33937pt x 10.344pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]
+\openout4 = main.pyg
+
+(./_minted-main/F81D220386B580D0BC91DD57C9573F7BDA0BB8A1D1C9B70BFBD74C447DEC833
+4.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42<./python.png>]
+\openout4 = main.pyg
+
+(./_minted-main/A12146DE088FDDDDC7C49035DD6DAED572747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/EF749760B386E081D2D1C172040861B672747F28252A72E734AA18DAD07864B
+2.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
+warning  (file netron1.pdf) (pdf inclusion): PDF inclusion: found PDF version '1
+.7', but at most version '1.5' allowed
+<netron1.pdf, id=1045, 348.34138pt x 918.3108pt>
+File: netron1.pdf Graphic file (type pdf)
+<use netron1.pdf>
+Package luatex.def Info: netron1.pdf  used on input line 2050.
+(luatex.def)             Requested size: 271.7835pt x 716.53177pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2051.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45<./netron1.pdf>]
+<training.png, id=1069, 2148.025pt x 1467.4825pt>
+File: training.png Graphic file (type png)
+<use training.png>
+Package luatex.def Info: training.png  used on input line 2059.
+(luatex.def)             Requested size: 452.9679pt x 309.45676pt.
+
+Overfull \hbox (2.0pt too wide) in paragraph at lines 2059--2060
+ [][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46<./training.png>]
+\openout4 = main.pyg
+
+(./_minted-main/58EDAAF4898AAF706EC4E8EDC165C4B53AFE2FEEEF5E25206AB12E7A46902F3
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/2251431E8FFADE43A69FD5FF9DBFCD5D3AFE2FEEEF5E25206AB12E7A46902F3
+2.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+\openout4 = main.pyg
+
+(./_minted-main/8B9BD8B25A702CDE8F81853D98EE39173AFE2FEEEF5E25206AB12E7A46902F3
+2.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
+<conft.png, id=1083, 1445.4pt x 676.77844pt>
+File: conft.png Graphic file (type png)
+<use conft.png>
+Package luatex.def Info: conft.png  used on input line 2177.
+(luatex.def)             Requested size: 588.85963pt x 275.71507pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2178.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (81.59424pt too wide) in paragraph at lines 2174--2178
+|  [][][] 
+ []
+
+<conf.png, id=1084, 1445.4pt x 676.77844pt>
+File: conf.png Graphic file (type png)
+<use conf.png>
+Package luatex.def Info: conf.png  used on input line 2181.
+(luatex.def)             Requested size: 588.85963pt x 275.71507pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2182.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (81.59424pt too wide) in paragraph at lines 2179--2182
+|  [][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49<./conft.png><./conf.png>]
+\openout4 = main.pyg
+
+(./_minted-main/2BFF53A712AFCAF6228E446EC2F979F072747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/36A2DD8CA9C6E4C8F4662849ED09803B72747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/10D694D63F36E9F6F1FB8969D9F01A8E72747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/097470AC3101ECC91059F5B0CBE2D94A72747F28252A72E734AA18DAD07864B
+2.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
+<pruning.png, id=1093, 3266.2025pt x 1804.7425pt>
+File: pruning.png Graphic file (type png)
+<use pruning.png>
+Package luatex.def Info: pruning.png  used on input line 2252.
+(luatex.def)             Requested size: 452.9679pt x 250.2664pt.
+
+Overfull \hbox (2.0pt too wide) in paragraph at lines 2252--2253
+ [] 
+ []
+
+
+\openout4 = main.pyg
+
+(./_minted-main/EF9E3E8A6BB77E75B34A26F3058CB98672747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/29E01BE65A2E2C69DBF159DD3AB2E18872747F28252A72E734AA18DAD07864B
+2.pygtex)
+<pruned.png, id=1094, 1858.945pt x 1236.62pt>
+File: pruned.png Graphic file (type png)
+<use pruned.png>
+Package luatex.def Info: pruned.png  used on input line 2293.
+(luatex.def)             Requested size: 452.9679pt x 301.32349pt.
+
+Overfull \hbox (2.0pt too wide) in paragraph at lines 2293--2294
+ [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51<./pruning.png>]
+\openout4 = main.pyg
+
+(./_minted-main/93D6DFFBE0C3A143D8B4A704ED6A8BAE72747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/0E7805FFB276CAACE081185BBB2C79A972747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/605237830D2990FA5A6400898A8CD5ED72747F28252A72E734AA18DAD07864B
+2.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52<./pruned.png>]
+\openout4 = main.pyg
+
+(./_minted-main/C4DD1C0B072B53BC0AA61253F9C2385272747F28252A72E734AA18DAD07864B
+2.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/697D1505706B138EE5FEC0C8347566FA72747F28252A72E734AA18DAD07864B
+2.pygtex)
+Package svg Info: Last page of `./svg-inkscape/memory_svg-tex.pdf' is 3 on inpu
+t line 2371.
+ (./svg-inkscape/memory_svg-tex.pdf_tex
+<./svg-inkscape/memory_svg-tex.pdf, id=1105, page=1, 632.3625pt x 474.27188pt>
+File: ./svg-inkscape/memory_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/memory_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/memory_svg-tex.pdf , page1 used on inpu
+t line 56.
+(luatex.def)             Requested size: 362.37569pt x 271.78514pt.
+<./svg-inkscape/memory_svg-tex.pdf, id=1106, page=2, 632.3625pt x 474.27188pt>
+File: ./svg-inkscape/memory_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/memory_svg-tex.pdf, page 2>
+Package luatex.def Info: ./svg-inkscape/memory_svg-tex.pdf , page2 used on inpu
+t line 58.
+(luatex.def)             Requested size: 362.37569pt x 271.78514pt.
+<./svg-inkscape/memory_svg-tex.pdf, id=1107, page=3, 632.3625pt x 474.27188pt>
+File: ./svg-inkscape/memory_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/memory_svg-tex.pdf, page 3>
+Package luatex.def Info: ./svg-inkscape/memory_svg-tex.pdf , page3 used on inpu
+t line 62.
+(luatex.def)             Requested size: 362.37569pt x 271.78514pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2372.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53<./svg-inkscape/memory_svg-tex.pdf><./svg-inkscape/memory_svg-tex.pdf><./svg-
+inkscape/memory_svg-tex.pdf>]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2378.
+
+Underfull \hbox (badness 3029) in paragraph at lines 2378--2379
+[]\TU/qcr/m/n/12 The code im-ple-men-ta-tion is di-vided into sev-eral cru-cial com-po-nents. First,
+ []
+
+
+\openout4 = main.pyg
+
+(./_minted-main/4552C1696BCE011FDC6AAF73751C839C5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7060CA15F8498A09EF21E8C185AF7F5D5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/CA403F8B93CB0F88B6AD5C8162E09B2E5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+\openout4 = main.pyg
+
+(./_minted-main/148961B44E21B19EAD6E7199CEE50ADD5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/06E0A7B6D21883C9B63C7FC9D087108E5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/40C3A5913E493B9DA282AE4E1BF8136D5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/7FA3EEE259955B9BE3EAC015F5422A425FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56]
+\openout4 = main.pyg
+
+(./_minted-main/96B30C1EFF3D1DF6511F51F047C8F7785FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57]
+\openout4 = main.pyg
+
+(./_minted-main/F2D16536056FED22BCAEB05E8566C0465FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/087CA1C636825D2A43FD98D7E99C67F05FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/5572155F9DB4D7FD254D7A6F026F44795FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/998F84BA739E6FE295B3ED5A78AB9E2A5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
+\openout4 = main.pyg
+
+(./_minted-main/4989569D0EEDC8785C875CDE17BC1A8E5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+\openout4 = main.pyg
+
+(./_minted-main/C9B7D3E529E443F01B3E6555A3A0A37F5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59]
+\openout4 = main.pyg
+
+(./_minted-main/27747534CF9C384CBE242E12BB50B84D5FBB6F9EEABFB39794C37A90146A409
+F.pygtex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60] [61
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2769--2771
+[]$\TU/lmtt/m/n/12 https://www.mathworks.com/help/deeplearning/ug/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2773--2775
+[]$\TU/lmtt/m/n/12 https://www.tensorflow.org/guide/intro_to_graphs#:~:text=Tens
+orFlow%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2776--2778
+[]$\TU/lmtt/m/n/12 https://www.microsoft.com/en-[]us/research/wp-[]content/uploa
+ds/2016/02/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2780--2782
+[]$\TU/lmtt/m/n/12 https://www.mathworks.com/help/deeplearning/ug/
+ []
+
+
+Overfull \hbox (13.09961pt too wide) in paragraph at lines 2780--2782
+\TU/lmtt/m/n/12 prune-[]and-[]quantize-[]convolutional-[]neural-[]network-[]for-
+[]speech-[]recognition.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2784--2786
+[]$\TU/lmtt/m/n/12 https://www.researchgate.net/publication/359410664_Long_Short
+-[]Term_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2788--2790
+[]$\TU/lmtt/m/n/12 https://www.tensorflow.org/lite/models/modify/model_maker/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2788--2790
+\TU/lmtt/m/n/12 speech_recognition?fbclid=IwAR3S8ahImF5ZHanItmlpGbf2JnlShir-[]\
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2792--2794
+[]$\TU/lmtt/m/n/12 https://www.microsoft.com/en-[]us/research/wp-[]content/uploa
+ds/2017/08/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2799--2801
+[]\TU/qcr/m/n/12 STATE-OF-THE-ART SPEECH RECOG-NI-TION WITH SEQUENCE-TO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2799--2801
+[]$\TU/lmtt/m/n/12 https://static.googleusercontent.com/media/research.google.co
+m/en/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2803--2805
+[]$\TU/lmtt/m/n/12 https://docs.espressif.com/projects/esp-[]idf/en/stable/esp32
+/index.
+ []
+
+[7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2819--2821
+[]$\TU/lmtt/m/n/12 https://diposit.ub.edu/dspace/bitstream/2445/180441/2/tfm_lic
+htner_
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+<github.png, id=1212, 352.40228pt x 352.40228pt>
+File: github.png Graphic file (type png)
+<use github.png>
+Package luatex.def Info: github.png  used on input line 2843.
+(luatex.def)             Requested size: 85.35826pt x 85.35797pt.
+<doclicense-CC-zero-88x31.pdf, id=1216, 66.2475pt x 23.33719pt>
+File: doclicense-CC-zero-88x31.pdf Graphic file (type pdf)
+<use doclicense-CC-zero-88x31.pdf>
+Package luatex.def Info: doclicense-CC-zero-88x31.pdf  used on input line 2853.
+
+(luatex.def)             Requested size: 120.0pt x 42.27571pt.
+
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/se-pdfdoc.d
+ef
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+)
+(C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/se-utf32be.
+def
+File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
+) [9
+
+<./github.png><C:/Users/Aamar/AppData/Local/Programs/MiKTeX/tex/latex/doclicense
+/images/doclicense-CC-zero-88x31.pdf>] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9EE0F62D08F2C331D10B15912F2F6002;14491.
+runsystem(del main.pyg)...executed.
+)
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 283 ({)
+### bottom level
+
+Here is how much of LuaTeX's memory you used:
+ 59348 strings out of 476324
+ 195564,2848258 words of node,token memory allocated
+ 3229 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 112 dir, 2 glue, 4 kern, 4 sub_mlist, 1 glyph, 43
+2 attribute, 101 glue_spec, 253 attribute_list, 2 write, 24 pdf_literal, 13 pdf_
+action, 24 pdf_colorstack nodes
+   avail lists: 1:5,2:8082,3:4386,4:38,5:1669,6:151,7:8275,8:146,9:2403,10:25,11
+:736
+ 79456 multiletter control sequences out of 65536+600000
+ 127 fonts using 25279151 bytes
+ 108i,19n,115p,1364b,2504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/aamar/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono10-
+italic.otf><c:/users/aamar/appdata/local/programs/miktex/fonts/opentype/public/l
+m/lmmono10-regular.otf><c:/users/aamar/appdata/local/programs/miktex/fonts/opent
+ype/public/lm/lmmonolt10-bold.otf><c:/users/aamar/appdata/local/programs/miktex/
+fonts/opentype/public/lm/lmroman6-regular.otf><C:/WINDOWS/Fonts/courbd.ttf><//?/
+c:/users/aamar/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-
+regular.otf><C:/WINDOWS/Fonts/cour.ttf><c:/users/aamar/appdata/local/programs/mi
+ktex/fonts/opentype/public/lm/lmromandemi10-regular.otf><c:/users/aamar/appdata/
+local/programs/miktex/fonts/opentype/public/lm/lmmono12-regular.otf><c:/users/aa
+mar/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman17-regular.otf
+><c:/users/aamar/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman8
+-regular.otf><c:/users/aamar/appdata/local/programs/miktex/fonts/opentype/public
+/lm/lmroman12-italic.otf><//?/c:/users/aamar/appdata/local/programs/miktex/fonts
+/opentype/public/lm/lmroman12-regular.otf><//?/c:/users/aamar/appdata/local/prog
+rams/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><c:/users/aamar/appdata/
+local/programs/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><C:/Users/Aama
+r/AppData/Local/Microsoft/Windows/Fonts/scheherazade-regular.ttf><c:/users/aamar
+/appdata/local/programs/miktex/fonts/opentype/public/lm/lmromancaps10-regular.ot
+f><C:/Users/Aamar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Users/Aamar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cmextra/cmex8.pfb><C:/Users/Aamar/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb><C:/Users/Aamar/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Aamar/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Aamar/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Aamar/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Aamar/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aamar/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/Aamar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
+:/Users/Aamar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><C:/Users/Aamar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
+ymbols/msbm10.pfb>
+Output written on main.pdf (72 pages, 22061065 bytes).
+
+PDF statistics: 1379 PDF objects out of 1440 (max. 8388607)
+ 268 named destinations out of 1000 (max. 131072)
+ 965 words of extra memory for PDF output out of 10000 (max. 100000000)
+

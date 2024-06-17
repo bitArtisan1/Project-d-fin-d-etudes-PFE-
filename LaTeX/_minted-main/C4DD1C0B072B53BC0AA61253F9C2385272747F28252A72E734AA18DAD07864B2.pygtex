@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{originalNetMetrics}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{estimateNetworkMetrics}\PYG{p}{(}\PYG{n}{trainedNet}\PYG{p}{);}
+\PYG{n}{taylorNetMetrics}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{estimateNetworkMetrics}\PYG{p}{(}\PYG{n}{trainedNetPruned}\PYG{p}{);}
+\PYG{n}{quantizedNetMetrics}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{estimateNetworkMetrics}\PYG{p}{(}\PYG{n}{qnetPruned}\PYG{p}{);}
+\end{Verbatim}

@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{miniBatchSize}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{128}\PYG{p}{;}
+\PYG{n}{validationFrequency}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{floor}\PYG{p}{(}\PYG{n+nb}{numel}\PYG{p}{(}\PYG{n}{TTrain}\PYG{p}{)}\PYG{o}{/}\PYG{n}{miniBatchSize}\PYG{p}{);}
+\PYG{n}{options}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{trainingOptions}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}sgdm\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{InitialLearnRate}\PYG{p}{=}\PYG{l+m+mf}{3e\PYGZhy{}4}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{MaxEpochs}\PYG{p}{=}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{MiniBatchSize}\PYG{p}{=}\PYG{n}{miniBatchSize}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{Shuffle}\PYG{p}{=}\PYG{l+s}{\PYGZdq{}every\PYGZhy{}epoch\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{Verbose}\PYG{p}{=}\PYG{n+nb}{false}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{ValidationData}\PYG{p}{=\PYGZob{}}\PYG{n}{XValidation}\PYG{p}{,}\PYG{n}{TValidation}\PYG{p}{\PYGZcb{},}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{OutputNetwork}\PYG{p}{=}\PYG{l+s}{\PYGZdq{}best\PYGZhy{}validation\PYGZhy{}loss\PYGZdq{}}\PYG{p}{);}
+\PYG{n}{trainedNetPruned}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{trainNetwork}\PYG{p}{(}\PYG{n}{XTrain}\PYG{p}{,}\PYG{n}{TTrain}\PYG{p}{,}\PYG{n}{prunedLayerGraph}\PYG{p}{,}\PYG{n}{options}\PYG{p}{);}
+\end{Verbatim}

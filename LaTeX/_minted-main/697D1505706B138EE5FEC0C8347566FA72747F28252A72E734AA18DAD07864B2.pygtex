@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{figure}\PYG{p}{;}
+\PYG{n+nb}{memory}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{p}{[}\PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{originalNetMetrics}\PYG{p}{.(}\PYG{l+s}{\PYGZdq{}ParameterMemory (MB)\PYGZdq{}}\PYG{p}{))}
+\PYG{+w}{               }\PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{taylorNetMetrics}\PYG{p}{.(}\PYG{l+s}{\PYGZdq{}ParameterMemory (MB)\PYGZdq{}}\PYG{p}{))}
+\PYG{+w}{               }\PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{quantizedNetMetrics}\PYG{p}{.(}\PYG{l+s}{\PYGZdq{}ParameterMemory (MB)\PYGZdq{}}\PYG{p}{))];}
+
+\PYG{n}{plotResults}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{memory}\PYG{p}{)}
+\PYG{n+nb}{ylabel}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Parameter Memory (MB)\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{title}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Parameter Memory of Network\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

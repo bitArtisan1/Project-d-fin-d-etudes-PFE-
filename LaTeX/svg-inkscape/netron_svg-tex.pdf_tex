@@ -1,0 +1,190 @@
+%% Creator: Inkscape 1.3.2 (091e20e, 2023-11-25, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'netron_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{116.25bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,14.94193548)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{netron_svg-tex.pdf}}%
+    \put(0.08399698,14.79342238){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}imageinput_unnormalized\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{netron_svg-tex.pdf}}%
+    \put(0.20516633,14.38697077){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Normalization\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{netron_svg-tex.pdf}}%
+    \put(0.20516633,14.2514869){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{mean}〈98×50×1〉\end{tabular}}}}%
+    \put(0.20516633,14.16116431){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{variance}〈98×50×1〉\end{tabular}}}}%
+    \put(0.20516633,14.07084173){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}count = 0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{netron_svg-tex.pdf}}%
+    \put(0.24355311,13.79987399){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ZeroPadding2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{netron_svg-tex.pdf}}%
+    \put(0.21751512,13.52245464){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Conv2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{netron_svg-tex.pdf}}%
+    \put(0.21751512,13.38697077){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈3×3×1×11〉\end{tabular}}}}%
+    \put(0.21751512,13.29664819){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈11〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{netron_svg-tex.pdf}}%
+    \put(0.17920867,13.02568044){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}BatchNormalization\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{netron_svg-tex.pdf}}%
+    \put(0.17920867,12.89019657){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{gamma}〈11〉\end{tabular}}}}%
+    \put(0.17920867,12.79987399){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{beta}〈11〉\end{tabular}}}}%
+    \put(0.17920867,12.70955141){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_mean}〈11〉\end{tabular}}}}%
+    \put(0.17920867,12.61922883){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_variance}〈11〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{netron_svg-tex.pdf}}%
+    \put(0.4125756,12.34826109){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReLU\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{netron_svg-tex.pdf}}%
+    \put(0.26226846,12.07084173){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MaxPooling2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{netron_svg-tex.pdf}}%
+    \put(0.24355311,11.79342238){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ZeroPadding2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{netron_svg-tex.pdf}}%
+    \put(0.20183972,11.51600302){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Conv2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{netron_svg-tex.pdf}}%
+    \put(0.20183972,11.38051915){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈3×3×11×18〉\end{tabular}}}}%
+    \put(0.20183972,11.29019657){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈18〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{netron_svg-tex.pdf}}%
+    \put(0.17920867,11.01922883){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}BatchNormalization\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{netron_svg-tex.pdf}}%
+    \put(0.17920867,10.88374496){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{gamma}〈18〉\end{tabular}}}}%
+    \put(0.17920867,10.79342238){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{beta}〈18〉\end{tabular}}}}%
+    \put(0.17920867,10.7030998){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_mean}〈18〉\end{tabular}}}}%
+    \put(0.17920867,10.61277722){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_variance}〈18〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{netron_svg-tex.pdf}}%
+    \put(0.4125756,10.34180948){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReLU\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{netron_svg-tex.pdf}}%
+    \put(0.26226846,10.06439012){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MaxPooling2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{netron_svg-tex.pdf}}%
+    \put(0.24355311,9.78697077){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ZeroPadding2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{netron_svg-tex.pdf}}%
+    \put(0.20183972,9.50955141){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Conv2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{netron_svg-tex.pdf}}%
+    \put(0.20183972,9.37406754){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈3×3×18×31〉\end{tabular}}}}%
+    \put(0.20183972,9.28374496){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈31〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{netron_svg-tex.pdf}}%
+    \put(0.17920867,9.01277722){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}BatchNormalization\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{netron_svg-tex.pdf}}%
+    \put(0.17920867,8.87729335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{gamma}〈31〉\end{tabular}}}}%
+    \put(0.17920867,8.78697077){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{beta}〈31〉\end{tabular}}}}%
+    \put(0.17920867,8.69664819){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_mean}〈31〉\end{tabular}}}}%
+    \put(0.17920867,8.60632561){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_variance}〈31〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{netron_svg-tex.pdf}}%
+    \put(0.4125756,8.33535786){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReLU\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{netron_svg-tex.pdf}}%
+    \put(0.26226846,8.05793851){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MaxPooling2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{netron_svg-tex.pdf}}%
+    \put(0.24355311,7.78051915){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ZeroPadding2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{netron_svg-tex.pdf}}%
+    \put(0.20183972,7.5030998){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Conv2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{netron_svg-tex.pdf}}%
+    \put(0.20183972,7.36761593){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈3×3×31×32〉\end{tabular}}}}%
+    \put(0.20183972,7.27729335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈32〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{netron_svg-tex.pdf}}%
+    \put(0.17920867,7.00632561){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}BatchNormalization\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{netron_svg-tex.pdf}}%
+    \put(0.17920867,6.87084173){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{gamma}〈32〉\end{tabular}}}}%
+    \put(0.17920867,6.78051915){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{beta}〈32〉\end{tabular}}}}%
+    \put(0.17920867,6.69019657){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_mean}〈32〉\end{tabular}}}}%
+    \put(0.17920867,6.59987399){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_variance}〈32〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{netron_svg-tex.pdf}}%
+    \put(0.4125756,6.32890625){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReLU\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{netron_svg-tex.pdf}}%
+    \put(0.24355311,6.0514869){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ZeroPadding2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{netron_svg-tex.pdf}}%
+    \put(0.20183972,5.77406754){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Conv2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{netron_svg-tex.pdf}}%
+    \put(0.20183972,5.63858367){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈3×3×32×80〉\end{tabular}}}}%
+    \put(0.20183972,5.54826109){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈80〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{netron_svg-tex.pdf}}%
+    \put(0.17920867,5.27729335){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}BatchNormalization\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{netron_svg-tex.pdf}}%
+    \put(0.17920867,5.14180948){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{gamma}〈80〉\end{tabular}}}}%
+    \put(0.17920867,5.0514869){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{beta}〈80〉\end{tabular}}}}%
+    \put(0.17920867,4.96116431){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_mean}〈80〉\end{tabular}}}}%
+    \put(0.17920867,4.87084173){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{moving_variance}〈80〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{netron_svg-tex.pdf}}%
+    \put(0.4125756,4.59987399){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReLU\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{netron_svg-tex.pdf}}%
+    \put(0.26226846,4.32245464){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MaxPooling2D\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{netron_svg-tex.pdf}}%
+    \put(0.36023658,4.04503528){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Permute\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{netron_svg-tex.pdf}}%
+    \put(0.38500504,3.76761593){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Flatten\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{netron_svg-tex.pdf}}%
+    \put(0.35956086,3.49019657){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reshape\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{netron_svg-tex.pdf}}%
+    \put(0.10330141,3.21277722){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LSTM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{netron_svg-tex.pdf}}%
+    \put(0.10330141,3.07729335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈560×512〉\end{tabular}}}}%
+    \put(0.10330141,2.98697077){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{recurrent_kernel}〈128×512〉\end{tabular}}}}%
+    \put(0.10330141,2.89664819){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈512〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{netron_svg-tex.pdf}}%
+    \put(0.10330141,2.7547127){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Activation\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{netron_svg-tex.pdf}}%
+    \put(0.35956086,2.47729335){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reshape\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{netron_svg-tex.pdf}}%
+    \put(0.25723286,2.19987399){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Dense\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{netron_svg-tex.pdf}}%
+    \put(0.25723286,2.06439012){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈128×12〉\end{tabular}}}}%
+    \put(0.25723286,1.97406754){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈12〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=47]{netron_svg-tex.pdf}}%
+    \put(0.4125756,1.7030998){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReLU\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=48]{netron_svg-tex.pdf}}%
+    \put(0.3590647,1.42568044){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Dropout\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=49]{netron_svg-tex.pdf}}%
+    \put(0.27285786,1.14826109){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Dense\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=50]{netron_svg-tex.pdf}}%
+    \put(0.27285786,1.01277722){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{kernel}〈12×12〉\end{tabular}}}}%
+    \put(0.27285786,0.92245464){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{bias}〈12〉\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=51]{netron_svg-tex.pdf}}%
+    \put(0.4125756,0.6514869){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReLU\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=52]{netron_svg-tex.pdf}}%
+    \put(0.36096428,0.37406754){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Softmax\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=53]{netron_svg-tex.pdf}}%
+    \put(0.36475869,0.09664819){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}softmax\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=54]{netron_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

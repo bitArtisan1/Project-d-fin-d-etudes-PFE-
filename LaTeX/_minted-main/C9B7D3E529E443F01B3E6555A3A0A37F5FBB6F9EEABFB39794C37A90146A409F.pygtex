@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{setup}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{begin}\PYG{p}{(}\PYG{l+m+mi}{115200}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{delay}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Starting up\PYGZdq{}}\PYG{p}{);}
+
+\PYG{+w}{  }\PYG{n}{esp\PYGZus{}task\PYGZus{}wdt\PYGZus{}init}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{false}\PYG{p}{);}
+
+\PYG{c+cp}{\PYGZsh{}ifdef USE\PYGZus{}I2S\PYGZus{}MIC\PYGZus{}INPUT}
+\PYG{+w}{  }\PYG{n}{I2SSampler}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{i2s\PYGZus{}sampler}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{I2SMicSampler}\PYG{p}{(}\PYG{n}{i2s\PYGZus{}mic\PYGZus{}pins}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{false}\PYG{p}{);}
+\PYG{c+cp}{\PYGZsh{}else}
+\PYG{+w}{  }\PYG{n}{I2SSampler}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{i2s\PYGZus{}sampler}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{ADCSampler}\PYG{p}{(}\PYG{n}{ADC\PYGZus{}UNIT\PYGZus{}1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ADC\PYGZus{}MIC\PYGZus{}CHANNEL}\PYG{p}{);}
+\PYG{c+cp}{\PYGZsh{}endif}
+
+\PYG{+w}{  }\PYG{n}{CommandProcessor}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{command\PYGZus{}processor}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{CommandProcessor}\PYG{p}{();}
+
+\PYG{+w}{  }\PYG{n}{CommandDetector}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{commandDetector}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{CommandDetector}\PYG{p}{(}\PYG{n}{i2s\PYGZus{}sampler}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{command\PYGZus{}processor}\PYG{p}{);}
+
+\PYG{+w}{  }\PYG{n}{TaskHandle\PYGZus{}t}\PYG{+w}{ }\PYG{n}{applicationTaskHandle}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{xTaskCreatePinnedToCore}\PYG{p}{(}\PYG{n}{applicationTask}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Command Detect\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{8192}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{commandDetector}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{applicationTaskHandle}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{);}
+
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{CommandProcessor}\PYG{o}{::}\PYG{n}{CommandProcessor}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{pinMode}\PYG{p}{(}\PYG{n}{GPIO\PYGZus{}NUM\PYGZus{}2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{OUTPUT}\PYG{p}{);}
+\PYG{+w}{    }\PYG{c+c1}{// setup the motors}
+\PYG{+w}{    }\PYG{n}{ledcSetup}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{50}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{16}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{ledcAttachPin}\PYG{p}{(}\PYG{n}{GPIO\PYGZus{}NUM\PYGZus{}13}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{ledcSetup}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{50}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{16}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{ledcAttachPin}\PYG{p}{(}\PYG{n}{GPIO\PYGZus{}NUM\PYGZus{}12}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{ledcWrite}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{calcDuty}\PYG{p}{(}\PYG{l+m+mi}{1500}\PYG{p}{));}\PYG{+w}{ }\PYG{c+c1}{// left}
+\PYG{+w}{    }\PYG{n}{ledcWrite}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{calcDuty}\PYG{p}{(}\PYG{l+m+mi}{1500}\PYG{p}{));}\PYG{+w}{ }\PYG{c+c1}{// right}
+
+\PYG{+w}{    }\PYG{c+c1}{// allow up to 5 commands to be in flight at once}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}command\PYGZus{}queue\PYGZus{}handle}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{xQueueCreate}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{sizeof}\PYG{p}{(}\PYG{k+kt}{uint16\PYGZus{}t}\PYG{p}{));}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{m\PYGZus{}command\PYGZus{}queue\PYGZus{}handle}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Failed to create command queue\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{c+c1}{// kick off the command processor task}
+\PYG{+w}{    }\PYG{n}{TaskHandle\PYGZus{}t}\PYG{+w}{ }\PYG{n}{command\PYGZus{}queue\PYGZus{}task\PYGZus{}handle}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{xTaskCreate}\PYG{p}{(}\PYG{n}{commandQueueProcessorTask}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Command Queue Processor\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1024}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{this}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{command\PYGZus{}queue\PYGZus{}task\PYGZus{}handle}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

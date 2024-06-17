@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{qnetPruned}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{quantize}\PYG{p}{(}\PYG{n}{dlquantObj}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}ExponentScheme\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}Histogram\PYGZsq{}}\PYG{p}{);}
+\PYG{n+nb}{save}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}qnet\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}qnetPruned\PYGZdq{}}\PYG{p}{);}
+\end{Verbatim}

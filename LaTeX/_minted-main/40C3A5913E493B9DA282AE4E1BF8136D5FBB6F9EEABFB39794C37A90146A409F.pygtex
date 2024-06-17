@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{calcDuty}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{ms}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// 50Hz = 20ms period}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mi}{65536}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{ms}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{20000}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{i2s\PYGZus{}config\PYGZus{}t}\PYG{+w}{ }\PYG{n}{adcI2SConfig}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{mode}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{i2s\PYGZus{}mode\PYGZus{}t}\PYG{p}{)(}\PYG{n}{I2S\PYGZus{}MODE\PYGZus{}MASTER}\PYG{+w}{ }\PYG{o}{|}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}MODE\PYGZus{}RX}\PYG{+w}{ }\PYG{o}{|}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}MODE\PYGZus{}ADC\PYGZus{}BUILT\PYGZus{}IN}\PYG{p}{),}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{sample\PYGZus{}rate}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{16000}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{bits\PYGZus{}per\PYGZus{}sample}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}BITS\PYGZus{}PER\PYGZus{}SAMPLE\PYGZus{}16BIT}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{channel\PYGZus{}format}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}CHANNEL\PYGZus{}FMT\PYGZus{}ONLY\PYGZus{}LEFT}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{communication\PYGZus{}format}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}COMM\PYGZus{}FORMAT\PYGZus{}I2S\PYGZus{}LSB}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{intr\PYGZus{}alloc\PYGZus{}flags}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{ESP\PYGZus{}INTR\PYGZus{}FLAG\PYGZus{}LEVEL1}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{dma\PYGZus{}buf\PYGZus{}count}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{dma\PYGZus{}buf\PYGZus{}len}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{64}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{use\PYGZus{}apll}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{false}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{tx\PYGZus{}desc\PYGZus{}auto\PYGZus{}clear}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{false}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{fixed\PYGZus{}mclk}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{};}
+\end{Verbatim}

@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{specMin}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{min}\PYG{p}{(}\PYG{n}{XTrain}\PYG{p}{,[],}\PYG{l+s}{\PYGZdq{}all\PYGZdq{}}\PYG{p}{);}
+\PYG{n}{specMax}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{max}\PYG{p}{(}\PYG{n}{XTrain}\PYG{p}{,[],}\PYG{l+s}{\PYGZdq{}all\PYGZdq{}}\PYG{p}{);}
+\PYG{n}{idx}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{randperm}\PYG{p}{(}\PYG{n+nb}{numel}\PYG{p}{(}\PYG{n}{adsTrain}\PYG{p}{.}\PYG{n}{Files}\PYG{p}{),}\PYG{l+m+mi}{3}\PYG{p}{);}
+\PYG{n+nb}{figure}\PYG{p}{(}\PYG{n}{Units}\PYG{p}{=}\PYG{l+s}{\PYGZdq{}normalized\PYGZdq{}}\PYG{p}{,}\PYG{n}{Position}\PYG{p}{=[}\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{l+m+mf}{0.6}\PYG{p}{,}\PYG{l+m+mf}{0.6}\PYG{p}{]);}
+
+\PYG{n}{tlh}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{tiledlayout}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{);}
+\PYG{k}{for}\PYG{+w}{ }\PYG{n}{ii}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi}{5}
+\PYG{+w}{    }\PYG{p}{[}\PYG{n}{x}\PYG{p}{,}\PYG{n}{fs}\PYG{p}{]}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{audioread}\PYG{p}{(}\PYG{n}{adsTrain}\PYG{p}{.}\PYG{n}{Files}\PYG{p}{\PYGZob{}}\PYG{n}{idx}\PYG{p}{(}\PYG{n}{ii}\PYG{p}{)\PYGZcb{});}
+
+\PYG{+w}{    }\PYG{n+nb}{nexttile}\PYG{p}{(}\PYG{n}{tlh}\PYG{p}{,}\PYG{n}{ii}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{plot}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{axis}\PYG{+w}{ }\PYG{n}{tight}
+\PYG{+w}{    }\PYG{n+nb}{title}\PYG{p}{(}\PYG{n+nb}{string}\PYG{p}{(}\PYG{n}{adsTrain}\PYG{p}{.}\PYG{n}{Labels}\PYG{p}{(}\PYG{n}{idx}\PYG{p}{(}\PYG{n}{ii}\PYG{p}{))))}
+
+\PYG{+w}{    }\PYG{n+nb}{nexttile}\PYG{p}{(}\PYG{n}{tlh}\PYG{p}{,}\PYG{n}{ii}\PYG{o}{+}\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{spect}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{XTrain}\PYG{p}{(:,:,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{idx}\PYG{p}{(}\PYG{n}{ii}\PYG{p}{))}\PYG{o}{\PYGZsq{}}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n+nb}{pcolor}\PYG{p}{(}\PYG{n}{spect}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{clim}\PYG{p}{([}\PYG{n}{specMin}\PYG{+w}{ }\PYG{n}{specMax}\PYG{p}{])}
+\PYG{+w}{    }\PYG{n+nb}{shading}\PYG{+w}{ }\PYG{n}{flat}
+
+\PYG{+w}{    }\PYG{n+nb}{sound}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{fs}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n+nb}{pause}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+\PYG{k}{end}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{i2s\PYGZus{}pin\PYGZus{}config\PYGZus{}t}\PYG{+w}{ }\PYG{n}{i2s\PYGZus{}mic\PYGZus{}pins}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{bck\PYGZus{}io\PYGZus{}num}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}MIC\PYGZus{}SERIAL\PYGZus{}CLOCK}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{ws\PYGZus{}io\PYGZus{}num}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}MIC\PYGZus{}LEFT\PYGZus{}RIGHT\PYGZus{}CLOCK}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{data\PYGZus{}out\PYGZus{}num}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}PIN\PYGZus{}NO\PYGZus{}CHANGE}\PYG{p}{,}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n}{data\PYGZus{}in\PYGZus{}num}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I2S\PYGZus{}MIC\PYGZus{}SERIAL\PYGZus{}DATA}\PYG{p}{\PYGZcb{};}
+\end{Verbatim}

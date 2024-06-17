@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{analyzeNetwork}\PYG{p}{(}\PYG{n}{trainedNet}\PYG{p}{);}
+
+\PYG{n}{scores}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{minibatchpredict}\PYG{p}{(}\PYG{n}{trainedNet}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{XValidation}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{miniBatchSize}\PYG{p}{);}
+\PYG{n}{YValidation}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{scores2label}\PYG{p}{(}\PYG{n}{scores}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{classes}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}auto\PYGZdq{}}\PYG{p}{);}
+
+\PYG{n}{validationError}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{mean}\PYG{p}{(}\PYG{n}{YValidation}\PYG{+w}{ }\PYG{o}{\PYGZti{}=}\PYG{+w}{ }\PYG{n}{TValidation}\PYG{p}{);}
+
+\PYG{n}{scores}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{minibatchpredict}\PYG{p}{(}\PYG{n}{trainedNet}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{XTrain}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{miniBatchSize}\PYG{p}{);}
+\PYG{n}{YTrain}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{scores2label}\PYG{p}{(}\PYG{n}{scores}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{classes}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}auto\PYGZdq{}}\PYG{p}{);}
+\PYG{n}{trainError}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{mean}\PYG{p}{(}\PYG{n}{YTrain}\PYG{+w}{ }\PYG{o}{\PYGZti{}=}\PYG{+w}{ }\PYG{n}{TTrain}\PYG{p}{);}
+
+\PYG{n+nb}{disp}\PYG{p}{([}\PYG{l+s}{\PYGZdq{}Training error: \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{trainError}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mi}{100}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{} \PYGZpc{}\PYGZdq{}}\PYG{p}{;}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Validation error: \PYGZdq{}}
+\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{validationError}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mi}{100}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{} \PYGZpc{}\PYGZdq{}}\PYG{p}{]);}
+\PYG{c}{\PYGZpc{} \PYGZgt{}\PYGZgt{} Training Error: 1.84\PYGZpc{} ; Validation Error: 4.97\PYGZpc{}}
+\end{Verbatim}

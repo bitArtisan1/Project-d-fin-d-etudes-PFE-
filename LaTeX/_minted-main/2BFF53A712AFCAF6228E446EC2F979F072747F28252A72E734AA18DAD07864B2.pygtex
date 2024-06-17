@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{prunableNet}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{taylorPrunableNetwork}\PYG{p}{(}\PYG{n}{dlnet}\PYG{p}{);}
+\end{Verbatim}

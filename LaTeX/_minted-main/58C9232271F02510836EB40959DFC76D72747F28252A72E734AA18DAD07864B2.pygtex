@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{fs}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mf}{16e3}\PYG{p}{;}\PYG{+w}{ }\PYG{c}{\PYGZpc{} Known sample rate of the data set.}
+
+\PYG{n}{segmentDuration}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{n}{frameDuration}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mf}{0.025}\PYG{p}{;}
+\PYG{n}{hopDuration}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mf}{0.010}\PYG{p}{;}
+
+\PYG{n}{FFTLength}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{512}\PYG{p}{;}
+\PYG{n}{numBands}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{50}\PYG{p}{;}
+
+\PYG{n}{segmentSamples}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{segmentDuration}\PYG{o}{*}\PYG{n}{fs}\PYG{p}{);}
+\PYG{n}{frameSamples}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{frameDuration}\PYG{o}{*}\PYG{n}{fs}\PYG{p}{);}
+\PYG{n}{hopSamples}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{hopDuration}\PYG{o}{*}\PYG{n}{fs}\PYG{p}{);}
+\PYG{n}{overlapSamples}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{frameSamples}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{hopSamples}\PYG{p}{;}
+\PYG{c}{\PYGZpc{}Create an audioFeatureExtractor (Audio Toolbox) object to perform the feature extraction.}
+
+\PYG{n}{afe}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{audioFeatureExtractor}\PYG{p}{(}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{SampleRate}\PYG{p}{=}\PYG{n}{fs}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{FFTLength}\PYG{p}{=}\PYG{n}{FFTLength}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{Window}\PYG{p}{=}\PYG{n}{hann}\PYG{p}{(}\PYG{n}{frameSamples}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}periodic\PYGZdq{}}\PYG{p}{),}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{OverlapLength}\PYG{p}{=}\PYG{n}{overlapSamples}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{n}{barkSpectrum}\PYG{p}{=}\PYG{n+nb}{true}\PYG{p}{);}
+\PYG{n}{setExtractorParameters}\PYG{p}{(}\PYG{n}{afe}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}barkSpectrum\PYGZdq{}}\PYG{p}{,}\PYG{n}{NumBands}\PYG{+w}{ }\PYG{p}{=}\PYG{n}{numBands}\PYG{p}{,}\PYG{n}{WindowNormalization}\PYG{p}{=}\PYG{n+nb}{false}\PYG{p}{);}
+\end{Verbatim}

@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{CommandDetector}\PYG{o}{::\PYGZti{}}\PYG{n}{CommandDetector}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{delete}\PYG{+w}{ }\PYG{n}{m\PYGZus{}nn}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}nn}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{NULL}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{delete}\PYG{+w}{ }\PYG{n}{m\PYGZus{}audio\PYGZus{}processor}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}audio\PYGZus{}processor}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{NULL}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{uint32\PYGZus{}t}\PYG{+w}{ }\PYG{n}{free\PYGZus{}ram}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{esp\PYGZus{}get\PYGZus{}free\PYGZus{}heap\PYGZus{}size}\PYG{p}{();}
+\PYG{+w}{    }\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Free ram after DetectWakeWord cleanup \PYGZpc{}d}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{free\PYGZus{}ram}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

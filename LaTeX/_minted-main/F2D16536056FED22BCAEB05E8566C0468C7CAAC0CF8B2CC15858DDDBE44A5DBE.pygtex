@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{x}{\PYGZsh{}include \PYGZlt{}Arduino.h\PYGZgt{}}
+\PYG{x}{\PYGZsh{}include \PYGZlt{}WiFi.h\PYGZgt{}}
+\PYG{x}{\PYGZsh{}include \PYGZlt{}driver/i2s.h\PYGZgt{}}
+\PYG{x}{\PYGZsh{}include \PYGZlt{}esp\PYGZus{}task\PYGZus{}wdt.h\PYGZgt{}}
+\PYG{x}{\PYGZsh{}include \PYGZdq{}I2SMicSampler.h\PYGZdq{}}
+\PYG{x}{\PYGZsh{}include \PYGZdq{}ADCSampler.h\PYGZdq{}}
+\PYG{x}{\PYGZsh{}include \PYGZdq{}config.h\PYGZdq{}}
+\PYG{x}{\PYGZsh{}include \PYGZdq{}CommandDetector.h\PYGZdq{}}
+\PYG{x}{\PYGZsh{}include \PYGZdq{}CommandProcessor.h\PYGZdq{}}
+\end{Verbatim}

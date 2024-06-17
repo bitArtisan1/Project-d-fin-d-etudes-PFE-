@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{prunedLayerGraph}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{  }\PYG{n}{reassembleTaylorNetwork}\PYG{p}{(}\PYG{n}{prunableNet}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{classes}\PYG{p}{);}
+\end{Verbatim}

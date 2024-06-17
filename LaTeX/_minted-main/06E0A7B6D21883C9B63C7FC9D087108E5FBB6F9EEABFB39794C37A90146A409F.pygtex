@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{commandQueueProcessorTask}\PYG{p}{(}\PYG{k+kt}{void}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{param}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{CommandProcessor}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{commandProcessor}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{CommandProcessor}\PYG{+w}{ }\PYG{o}{*}\PYG{p}{)}\PYG{n}{param}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{while}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nb}{true}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{commandIndex}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{xQueueReceive}\PYG{p}{(}\PYG{n}{commandProcessor}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{m\PYGZus{}command\PYGZus{}queue\PYGZus{}handle}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{commandIndex}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{portMAX\PYGZus{}DELAY}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{pdTRUE}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{commandProcessor}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{processCommand}\PYG{p}{(}\PYG{n}{commandIndex}\PYG{p}{);}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

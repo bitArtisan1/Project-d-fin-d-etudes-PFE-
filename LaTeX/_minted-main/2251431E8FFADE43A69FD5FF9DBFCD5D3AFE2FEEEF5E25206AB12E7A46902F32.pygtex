@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} Measure prediction time on CPU for a single image}
+\PYG{k}{for}\PYG{+w}{ }\PYG{n}{ii}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi}{100}
+\PYG{+w}{    }\PYG{n}{x}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{randn}\PYG{p}{([}\PYG{n}{numHops}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{numBands}\PYG{p}{]);}
+\PYG{+w}{    }\PYG{n}{predictionTimer}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{tic}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{y}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{predict}\PYG{p}{(}\PYG{n}{trainedNet}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n+nb}{time}\PYG{p}{(}\PYG{n}{ii}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{toc}\PYG{p}{(}\PYG{n}{predictionTimer}\PYG{p}{);}
+\PYG{k}{end}
+
+\PYG{n+nb}{disp}\PYG{p}{([}\PYG{l+s}{\PYGZdq{}Network size: \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nb}{whos}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}trainedNet\PYGZdq{}}\PYG{p}{).}\PYG{n}{bytes}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{1024}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{} kB\PYGZdq{}}\PYG{p}{;}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{      }\PYG{l+s}{\PYGZdq{}Single\PYGZhy{}image prediction time on CPU: \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nb}{mean}\PYG{p}{(}\PYG{n+nb}{time}\PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{:}\PYG{k}{end}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mi}{1000}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{} ms\PYGZdq{}}\PYG{p}{]);}
+\PYG{c}{\PYGZpc{} \PYGZgt{}\PYGZgt{} \PYGZdq{}Network size: 2070.7119 kB\PYGZdq{} ; \PYGZdq{}Single\PYGZhy{}image prediction time on CPU: 4.3951 ms\PYGZdq{}}
+\end{Verbatim}

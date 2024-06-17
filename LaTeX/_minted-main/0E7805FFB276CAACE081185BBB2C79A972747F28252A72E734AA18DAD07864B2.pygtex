@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{calData}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{createCalibrationSet}\PYG{p}{(}\PYG{n}{XTrain}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{TTrain}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{36}
+\PYG{p}{[}\PYG{l+s}{\PYGZdq{}yes\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}no\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}up\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}down\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}left\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}right\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}on\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}off\PYGZdq{}}\PYG{p}{,}
+\PYG{l+s}{\PYGZdq{}stop\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}go\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}unknown\PYGZdq{}}\PYG{p}{,}\PYG{l+s}{\PYGZdq{}background\PYGZdq{}}\PYG{p}{]);}
+\PYG{n}{calibrate}\PYG{p}{(}\PYG{n}{dlquantObj}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{calData}\PYG{p}{);}
+\end{Verbatim}

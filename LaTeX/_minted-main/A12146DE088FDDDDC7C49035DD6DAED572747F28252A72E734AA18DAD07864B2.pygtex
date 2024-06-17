@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{trainedNet}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{trainnet}\PYG{p}{(}\PYG{n}{XTrain}\PYG{p}{,}\PYG{n}{TTrain}\PYG{p}{,}\PYG{n}{layers}\PYG{p}{,@(}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{T}\PYG{p}{)}\PYG{n}{crossentropy}
+\PYG{+w}{    }\PYG{p}{(}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{T}\PYG{p}{,}\PYG{n}{classWeights}\PYG{p}{(:),}\PYG{n}{WeightsFormat}\PYG{p}{=}\PYG{l+s}{\PYGZdq{}C\PYGZdq{}}\PYG{p}{),}\PYG{n}{options}\PYG{p}{);}
+\end{Verbatim}

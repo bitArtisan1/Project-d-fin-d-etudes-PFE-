@@ -1,0 +1,50 @@
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Model for a biological neuron}}{2}{figure.1.1}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Model for artificial neuron}}{2}{figure.caption.2}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Layers of ANN}}{3}{figure.caption.3}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Convolutional Neural Network Architecture}}{5}{figure.caption.4}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Kernel Convolution Matrix}}{6}{figure.caption.5}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Structure of an LSTM block}}{9}{figure.1.6}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Graph Showing How Training Error Evolves With Model Complexity(Overfitting)}}{10}{figure.caption.6}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces ESP32 Module Pinout}}{15}{figure.1.8}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces ESP32-WROOM Board}}{17}{figure.caption.8}%
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Number of Samples per Category}}{19}{figure.caption.9}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces An example FFT algorithm structure, using a decomposition into half-size FFTs}}{22}{figure.2.2}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration showing the different transformations applied to the dataset}}{23}{figure.2.3}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces CNN+RNN Layer Network Architecture Generated in MATLAB$^{\tiny {\textregistered }}$\raisebox {-.7ex}{\includegraphics [height=3ex]{matlab.png}}}}{24}{figure.caption.10}%
+\setforeignlanguage {english}
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Number of Samples per Category (Validation)}}{39}{figure.caption.11}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Network architecture using Netron platform}}{45}{figure.3.2}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Training Progress on a GPU}}{46}{figure.caption.12}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Confusion Matrix for Test Data}}{49}{figure.3.4}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Confusion Matrix for Validation Data}}{49}{figure.3.5}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Training Progress on a GPU}}{51}{figure.caption.13}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Retraining Progress After Pruning}}{52}{figure.caption.14}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Memory comparison of the model after pruning \& quantization}}{53}{figure.3.8}%

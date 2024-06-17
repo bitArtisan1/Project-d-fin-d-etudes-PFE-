@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{CommandDetector}\PYG{o}{::}\PYG{n}{CommandDetector}\PYG{p}{(}\PYG{n}{I2SSampler}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{sample\PYGZus{}provider}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{CommandProcessor}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{command\PYGZus{}procesor}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}last\PYGZus{}detection}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}scores\PYGZus{}index}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}command\PYGZus{}processor}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{command\PYGZus{}procesor}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}sample\PYGZus{}provider}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{sample\PYGZus{}provider}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}average\PYGZus{}detect\PYGZus{}time}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}number\PYGZus{}of\PYGZus{}runs}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}nn}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{NeuralNetwork}\PYG{p}{();}
+\PYG{+w}{    }\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Created Neural Net\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}audio\PYGZus{}processor}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{AudioProcessor}\PYG{p}{(}\PYG{n}{AUDIO\PYGZus{}LENGTH}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{WINDOW\PYGZus{}SIZE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{STEP\PYGZus{}SIZE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{POOLING\PYGZus{}SIZE}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{COMMAND\PYGZus{}WINDOW}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NUMBER\PYGZus{}COMMANDS}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{j}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{m\PYGZus{}scores}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}scores\PYGZus{}index}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Created audio processor\PYGZdq{}}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

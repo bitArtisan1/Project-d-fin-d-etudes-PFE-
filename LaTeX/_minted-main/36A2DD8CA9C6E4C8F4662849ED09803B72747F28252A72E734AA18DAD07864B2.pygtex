@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{maxPruningIterations}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{16}\PYG{p}{;}
+\PYG{n}{maxToPrune}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{;}
+\PYG{n}{maxPrunableFilters}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{prunableNet}\PYG{p}{.}\PYG{n}{NumPrunables}\PYG{p}{;}
+\PYG{n}{numTest}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{size}\PYG{p}{(}\PYG{n}{TValidation}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{);}
+\PYG{n}{minPrunables}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{;}
+\end{Verbatim}

@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZlt{}Arduino.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include}\PYG{+w}{ }\PYG{c+cpf}{\PYGZdq{}CommandProcessor.h\PYGZdq{}}
+
+\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{char}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{words}\PYG{p}{[]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{l+s}{\PYGZdq{}forward\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{l+s}{\PYGZdq{}backward\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{l+s}{\PYGZdq{}left\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{l+s}{\PYGZdq{}right\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{l+s}{\PYGZdq{}\PYGZus{}nonsense\PYGZdq{}}\PYG{p}{,}
+\PYG{p}{\PYGZcb{};}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{transform1}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{transform}\PYG{p}{(}\PYG{n}{adsValidation}\PYG{p}{,@(}\PYG{n}{x}\PYG{p}{)[}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n+nb}{floor}\PYG{p}{((}\PYG{n}{segmentSamples}\PYG{o}{\PYGZhy{}}\PYG{n+nb}{size}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{))}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{),}\PYG{l+m+mi}{1}\PYG{p}{);}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{;}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n+nb}{ceil}\PYG{p}{((}\PYG{n}{segmentSamples}\PYG{o}{\PYGZhy{}}\PYG{n+nb}{size}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{))}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{),}\PYG{l+m+mi}{1}\PYG{p}{)]);}
+\PYG{n}{transform2}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{transform}\PYG{p}{(}\PYG{n}{transform1}\PYG{p}{,@(}\PYG{n}{x}\PYG{p}{)}\PYG{n+nb}{extract}\PYG{p}{(}\PYG{n}{afe}\PYG{p}{,}\PYG{n}{x}\PYG{p}{));}
+\PYG{n}{transform3}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{transform}\PYG{p}{(}\PYG{n}{transform2}\PYG{p}{,@(}\PYG{n}{x}\PYG{p}{)\PYGZob{}}\PYG{n+nb}{log10}\PYG{p}{(}\PYG{n}{x}\PYG{o}{+}\PYG{l+m+mf}{1e\PYGZhy{}6}\PYG{p}{)\PYGZcb{});}
+\PYG{n}{XValidation}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{readall}\PYG{p}{(}\PYG{n}{transform3}\PYG{p}{,}\PYG{n}{UseParallel}\PYG{p}{=}\PYG{n}{useParallel}\PYG{p}{);}
+\PYG{n}{XValidation}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{cat}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{n}{XValidation}\PYG{p}{\PYGZob{}:\PYGZcb{});}
+\end{Verbatim}

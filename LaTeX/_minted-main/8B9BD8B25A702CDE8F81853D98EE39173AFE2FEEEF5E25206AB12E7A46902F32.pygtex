@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{disp}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Test error: \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{testError}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mi}{100}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{} \PYGZpc{}\PYGZdq{}}\PYG{p}{);}
+\PYG{c}{\PYGZpc{} \PYGZgt{}\PYGZgt{} \PYGZdq{}Test error: 2.66\PYGZpc{}\PYGZdq{}}
+
+\PYG{c}{\PYGZpc{} Plot confusion matrix for test data}
+\PYG{n+nb}{figure}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Units\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}normalized\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}Position\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{[}\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{0.5}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{0.5}\PYG{p}{]);}
+\PYG{n}{cmTest}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{confusionchart}\PYG{p}{(}\PYG{n}{TTest}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{YTest}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{l+s}{\PYGZsq{}Title\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}Confusion Matrix for Test Data\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{l+s}{\PYGZsq{}ColumnSummary\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}column\PYGZhy{}normalized\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}RowSummary\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}row\PYGZhy{}normalized\PYGZsq{}}\PYG{p}{);}
+\PYG{n}{sortClasses}\PYG{p}{(}\PYG{n}{cmTest}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{[}\PYG{n}{commands}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}unknown\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}background\PYGZdq{}}\PYG{p}{]);}
+
+\PYG{c}{\PYGZpc{} Plot confusion matrix for validation data}
+\PYG{n+nb}{figure}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Units\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}normalized\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}Position\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{[}\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{0.5}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{0.5}\PYG{p}{]);}
+\PYG{n}{cm}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{confusionchart}\PYG{p}{(}\PYG{n}{TValidation}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{YValidation}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{l+s}{\PYGZsq{}Title\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}Confusion Matrix for Validation Data\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{...}
+\PYG{+w}{    }\PYG{l+s}{\PYGZsq{}ColumnSummary\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}column\PYGZhy{}normalized\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}RowSummary\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}row\PYGZhy{}normalized\PYGZsq{}}\PYG{p}{);}
+\PYG{n}{sortClasses}\PYG{p}{(}\PYG{n}{cm}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{[}\PYG{n}{commands}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}unknown\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}background\PYGZdq{}}\PYG{p}{]);}
+\end{Verbatim}

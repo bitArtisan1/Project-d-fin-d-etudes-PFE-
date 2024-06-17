@@ -1,0 +1,49 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{CommandDetector::run}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kt}{long}\PYG{+w}{ }\PYG{n}{start}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{millis}\PYG{p}{();}
+\PYG{+w}{    }\PYG{n}{RingBufferAccessor}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{reader}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{m\PYGZus{}sample\PYGZus{}provider}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{getRingBufferReader}\PYG{p}{();}
+\PYG{+w}{    }\PYG{n}{reader}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{rewind}\PYG{p}{(}\PYG{l+m+mi}{16000}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k+kt}{float}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{input\PYGZus{}buffer}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{m\PYGZus{}nn}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{getInputBuffer}\PYG{p}{();}
+\PYG{+w}{    }\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{is\PYGZus{}valid}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{m\PYGZus{}audio\PYGZus{}processor}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{get\PYGZus{}spectrogram}\PYG{p}{(}\PYG{n}{reader}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{input\PYGZus{}buffer}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k}{delete}\PYG{+w}{ }\PYG{n}{reader}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}nn}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{predict}\PYG{p}{();}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NUMBER\PYGZus{}COMMANDS}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k+kt}{float}\PYG{+w}{ }\PYG{n}{prediction}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{std}\PYG{o}{::}\PYG{n}{max}\PYG{p}{(}\PYG{n}{m\PYGZus{}nn}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{getOutputBuffer}\PYG{p}{()[}\PYG{n}{i}\PYG{p}{],}\PYG{+w}{ }\PYG{l+m+mf}{1e\PYGZhy{}6f}\PYG{p}{);}
+\PYG{+w}{        }\PYG{n}{m\PYGZus{}scores}\PYG{p}{[}\PYG{n}{m\PYGZus{}scores\PYGZus{}index}\PYG{p}{][}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{log}\PYG{p}{(}\PYG{n}{is\PYGZus{}valid}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{n}{prediction}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{1e\PYGZhy{}6}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}scores\PYGZus{}index}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{m\PYGZus{}scores\PYGZus{}index}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZpc{}}\PYG{+w}{ }\PYG{n}{COMMAND\PYGZus{}WINDOW}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kt}{float}\PYG{+w}{ }\PYG{n}{scores}\PYG{p}{[}\PYG{n}{NUMBER\PYGZus{}COMMANDS}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{\PYGZcb{};}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{COMMAND\PYGZus{}WINDOW}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{j}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NUMBER\PYGZus{}COMMANDS}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{j}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{scores}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{m\PYGZus{}scores}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{n}{j}\PYG{p}{];}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k+kt}{float}\PYG{+w}{ }\PYG{n}{best\PYGZus{}score}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{scores}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{];}
+\PYG{+w}{    }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{best\PYGZus{}index}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{NUMBER\PYGZus{}COMMANDS}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{scores}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{best\PYGZus{}score}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{best\PYGZus{}index}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{best\PYGZus{}score}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{scores}\PYG{p}{[}\PYG{n}{i}\PYG{p}{];}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k+kt}{long}\PYG{+w}{ }\PYG{n}{end}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{millis}\PYG{p}{();}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{best\PYGZus{}score}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{DETECTION\PYGZus{}THRESHOLD}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n}{best\PYGZus{}index}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{NUMBER\PYGZus{}COMMANDS}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n}{start}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{m\PYGZus{}last\PYGZus{}detection}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{1000}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{m\PYGZus{}last\PYGZus{}detection}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{start}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{m\PYGZus{}command\PYGZus{}processor}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{queueCommand}\PYG{p}{(}\PYG{n}{best\PYGZus{}index}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{best\PYGZus{}score}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}average\PYGZus{}detect\PYGZus{}time}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{end}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{start}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{0.1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{m\PYGZus{}average\PYGZus{}detect\PYGZus{}time}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{0.9}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n}{m\PYGZus{}number\PYGZus{}of\PYGZus{}runs}\PYG{o}{++}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{m\PYGZus{}number\PYGZus{}of\PYGZus{}runs}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{100}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{m\PYGZus{}number\PYGZus{}of\PYGZus{}runs}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{+w}{        }\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Average detection time \PYGZpc{}.fms}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{m\PYGZus{}average\PYGZus{}detect\PYGZus{}time}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
